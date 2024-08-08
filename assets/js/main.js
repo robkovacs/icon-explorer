@@ -85,7 +85,7 @@
         await getIcons();
         let matchingIcons = {};
 
-        const regex = new RegExp(query.toLowerCase().trim());
+        const regex = new RegExp(escapeRegex(query.toLowerCase().trim()));
         
         for (var key in icons) {
             let iconName = key;
@@ -178,6 +178,10 @@
             }
             return 0;
         }
+    }
+
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
 
     getIcons();
