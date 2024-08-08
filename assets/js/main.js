@@ -37,6 +37,14 @@
             {}
         );
 
+        let count = Object.keys(data).length + " matching icon";
+
+        if (Object.keys(data).length !== 1) {
+            count += "s";
+        }
+
+        document.querySelector('#icon-count').textContent = count;
+
         for (var key in data) {
             let iconName = key;
             let iconTags = data[key].tags;

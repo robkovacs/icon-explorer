@@ -26,6 +26,7 @@ body {
     #search-input {
         display: inline-block;
         position: relative;
+        margin-right: 2rem;
     }
 
     #search-input input {
@@ -54,6 +55,11 @@ body {
         top: 0;
         height: 3rem;
         width: 3rem;
+    }
+
+    #icon-count {
+        color: #5e6167;
+        display: inline-block;
     }
 
 /* General Layout */
