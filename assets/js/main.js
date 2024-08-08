@@ -38,15 +38,16 @@
             {}
         );
 
-        let count = Object.keys(data).length + " matching icon";
+        let count = Object.keys(data).length;
+        let countText = count + " matching icon";
         document.querySelector('#icon-count').textContent = '';
 
-        if (Object.keys(data).length !== 1) {
-            count += "s";
+        if (count !== 1) {
+            countText += "s";
         }
 
         if (count > 0) {
-            document.querySelector('#icon-count').textContent = count;
+            document.querySelector('#icon-count').textContent = countText;
         }
 
         for (var key in data) {
