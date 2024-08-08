@@ -55,6 +55,7 @@
             let iconTags = data[key].tags;
             let iconDescription = data[key].description;
             let isDeprecated = data[key].isDeprecated;
+            let isNew = data[key].isNew;
             
             let iconSummary = iconSummaryTemplate.content.cloneNode(true);
             let button = iconSummary.querySelector('button');
@@ -67,7 +68,7 @@
                     currentButton.classList.toggle('current');
                 }
                 e.currentTarget.classList.toggle('current');
-                showIconDetails(iconName, iconTags, iconDescription, isDeprecated);
+                showIconDetails(iconName, iconTags, iconDescription, isDeprecated, isNew);
             });
             button.setAttribute('aria-label', iconName);
 
@@ -78,6 +79,8 @@
 
             if (isDeprecated) {
                 figcaption.innerHTML = '<span class="deprecated-dot"></span>';
+            } else if (isNew) {
+                figcaption.innerHTML = '<span class="new-dot"></span>';
             }
 
             figcaption.innerHTML += iconName;
@@ -119,7 +122,7 @@
         populateGallery(matchingIcons);
     }
 
-    function showIconDetails(name, tags, description, isDeprecated) {
+    function showIconDetails(name, tags, description, isDeprecated, isNew) {
         // TODO: add support for "deprecated" badge
 
         const inspector = document.querySelector("#inspector");
@@ -141,6 +144,8 @@
 
         if (isDeprecated) {
             figcaption.innerHTML += '<span class="deprecated-badge">Deprecated</span>'
+        } else if (isNew) {
+            figcaption.innerHTML += '<span class="new-badge">New</span>'
         }
 
         if (tags.length > 0) {
