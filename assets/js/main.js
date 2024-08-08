@@ -16,13 +16,14 @@
         const inspector = document.querySelector("#inspector");
         if (gallery.innerHTML) {
             gallery.innerHTML = '';
+            inspector.style.display = "block";
             inspector.innerHTML = '<div class="empty-state">Choose an icon to see its details here</div>';
         }
 
         if (JSON.stringify(data) === '{}') {
             console.log(data);
             gallery.innerHTML = '<div class="empty-state">No matching icons found</div>';
-            inspector.innerHTML = '<div class="empty-state">Choose an icon to see its details here</div>';
+            inspector.style.display = "none";
         }
 
         
