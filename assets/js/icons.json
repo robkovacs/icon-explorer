@@ -17,15 +17,18 @@
     },
     "arrows-horizontal": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "arrows-vertical": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "asterisk": {
         "tags": [],
-        "description": "dunno"
+        "description": "",
+        "isDeprecated": true
     },
     "bar-chart": {
         "tags": [],
@@ -149,7 +152,8 @@
     },
     "credit-card": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "cut": {
         "tags": ["clipboard", "cut", "copy", "paste"],
@@ -213,11 +217,13 @@
     },
     "folder-open": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "folder": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "fullscreen-close": {
         "tags": [],
@@ -265,7 +271,8 @@
     },
     "list": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "lock-open": {
         "tags": [],
@@ -288,8 +295,9 @@
         "description": ""
     },
     "message": {
-        "tags": [],
-        "description": ""
+        "tags": ["communication", "speech", "bubble", "text", "talking", "conversation", "chat"],
+        "description": "Use <code>chat</code> instead",
+        "isDeprecated": true
     },
     "minus-circle": {
         "tags": [],
@@ -337,11 +345,13 @@
     },
     "pie-chart": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "pin": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "play-circle": {
         "tags": [],
@@ -360,8 +370,9 @@
         "description": ""
     },
     "question-circle": {
-        "tags": ["help"],
-        "description": ""
+        "tags": ["help", "support"],
+        "description": "Use <code>help</code> instead",
+        "isDeprecated": true
     },
     "redo": {
         "tags": [],

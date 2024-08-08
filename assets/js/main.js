@@ -54,6 +54,7 @@
             let iconName = key;
             let iconTags = data[key].tags;
             let iconDescription = data[key].description;
+            let isDeprecated = data[key].isDeprecated;
             
             let iconSummary = iconSummaryTemplate.content.cloneNode(true);
             let button = iconSummary.querySelector('button');
@@ -66,7 +67,7 @@
                     currentButton.classList.toggle('current');
                 }
                 e.currentTarget.classList.toggle('current');
-                showIconDetails(iconName, iconTags, iconDescription);
+                showIconDetails(iconName, iconTags, iconDescription, isDeprecated);
             });
             button.setAttribute('aria-label', iconName);
 
@@ -75,7 +76,11 @@
                 .then((response) => response.text())
                 .then((svg) => { iconContainer.innerHTML = svg });
 
-            figcaption.textContent = iconName;
+            if (isDeprecated) {
+                figcaption.innerHTML = '<span class="deprecated-dot"></span>';
+            }
+
+            figcaption.innerHTML += iconName;
 
             gallery.appendChild(iconSummary);
         }
@@ -114,7 +119,9 @@
         populateGallery(matchingIcons);
     }
 
-    function showIconDetails(name, tags, description) {
+    function showIconDetails(name, tags, description, isDeprecated) {
+        // TODO: add support for "deprecated" badge
+
         const inspector = document.querySelector("#inspector");
         
         const iconDetailTemplate = document.querySelector("#icon-detail-template");
@@ -130,7 +137,11 @@
             .then((response) => response.text())
             .then((svg) => { icon.innerHTML = svg });
 
-        figcaption.textContent = name;    
+        figcaption.innerHTML = name;
+
+        if (isDeprecated) {
+            figcaption.innerHTML += '<span class="deprecated-badge">Deprecated</span>'
+        }
 
         if (tags.length > 0) {
             const iconTagTemplate = document.querySelector("#icon-tag-template");
