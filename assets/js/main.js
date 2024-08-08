@@ -122,11 +122,15 @@
         if (tags.length > 0) {
             const iconTagTemplate = document.querySelector("#icon-tag-template");
             for (var i in tags) {
-                // TODO: make tags clickable (i.e. search icons by tag)
                 let iconTag = iconTagTemplate.content.cloneNode(true);
-                let li = iconTag.querySelector('li');
-                li.textContent = tags[i];
-                ul.appendChild(li);
+                let button = iconTag.querySelector('button');
+                let tagName = tags[i];
+                button.textContent = tagName;
+                button.addEventListener('click', function(e) {
+                    input.value = tagName;
+                    filterIcons(tagName);
+                });
+                ul.appendChild(iconTag);
             }
         } else {
             container.removeChild(ul);
