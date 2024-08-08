@@ -1,0 +1,202 @@
+body {
+    font-family: 'Oately';
+    margin: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1c1d1f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Intro */
+
+    h1 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #icon-settings {
+        margin-bottom: 2rem;
+    }
+
+    #search-input {
+        display: inline-block;
+        position: relative;
+    }
+
+    #search-input input {
+        padding: 0.75rem 3rem;
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        border-radius: 0.25rem;
+        border: 1px solid #848890;
+        width: 100%;
+        max-width: 24rem;
+        height: 3rem;
+        position: relative;
+    }
+
+    #search-input::before {
+        content: '';
+        z-index: 1;
+        background-image: url(../img/icons/search.svg);
+        background-position: center;
+        background-size: 1.5rem;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 3rem;
+        width: 3rem;
+    }
+
+/* General Layout */
+
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    #gallery {
+        flex: 3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+        grid-template-rows: 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    #inspector {
+        position: sticky;
+        align-self: flex-start;
+        top: 2rem;
+        right: 2rem;
+        flex: 1;
+        padding: 2rem;
+        background-color: #f7f8fb;
+        border-radius: 0.5rem;
+    }
+
+/* Icon Summary OR Detail */
+
+    figure {
+        margin: 0;
+    }
+
+    .icon-preview > svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        display: inline-block;
+    }
+
+/* Icon Summary */
+
+    button {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+        background-color: #fff;
+        border: 1px solid #D9DCE1;
+        border-radius: 0.25rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #f7f8fb;
+    }
+
+    button:active {
+        background-color: #eef0f4;
+    }
+
+    .current {
+        border: 1px solid #0070D4;
+        box-shadow: inset 1px 1px 0 #0070D4, inset -1px -1px 0 #0070D4;
+        background-color: #E5F3FF;
+    }
+
+    .current:hover {
+        background-color: #B6E5FF;
+    }
+
+    .current:active {
+        background-color: #6DC8FF;
+    }
+
+    .icon-summary {
+        padding: 1rem;
+        flex: 0 2 8rem;
+        align-self: stretch;
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    
+    .icon-summary .icon-preview {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    
+/* Icon Detail */
+
+    .icon-detail .icon-preview {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .icon-detail figcaption {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        font-weight: 700;
+    }
+
+    .icon-detail figure {
+        margin-bottom: 1rem;
+    }
+
+    code {
+        display: inline-block;
+        padding: 0.25rem;
+        background-color: #D9DCE1;
+        border-radius: 0.25rem;
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+
+    .icon-tag-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .icon-tag {
+        flex: 0 0 1rem;
+        text-align: center;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        border: 1px solid #848890;
+        border-radius: 9999px;
+        padding: 0.25rem 0.5rem;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .icon-detail > figure:last-child, .icon-detail > ul:last-child, .icon-detail > p {
+        margin-bottom: 0;
+    }
+
+    .empty-state {
+        color: #5e6167;
+    }

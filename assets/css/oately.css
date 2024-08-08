@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Oately";
+    src: local("Oately-BoldDisplay"),
+        url("https://css.justworks.com/fonts/Oately-BoldDisplay.woff2") format("woff2"),
+        url("https://css.justworks.com/fonts/Oately-BoldDisplay.woff") format("woff"),
+        url("https://css.justworks.com/fonts/Oately-BoldDisplay.ttf") format("ttf");
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oately";
+    src: local("Oately-Bold"),
+        url("https://css.justworks.com/fonts/Oately-Bold.woff2") format("woff2"),
+        url("https://css.justworks.com/fonts/Oately-Bold.woff") format("woff"),
+        url("https://css.justworks.com/fonts/Oately-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oately";
+    src: local("Oately"),
+        url("https://css.justworks.com/fonts/Oately-Regular.woff2") format("woff2"),
+        url("https://css.justworks.com/fonts/Oately-Regular.woff") format("woff"),
+        url("https://css.justworks.com/fonts/Oately-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-display: swap;
+}

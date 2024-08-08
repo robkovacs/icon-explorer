@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>System Icon Explorer</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="assets/css/oately.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script> let shutUpFirefox; </script>
+    </head>
+    <body>
+        <h1>Explore system icons</h1>
+        <div id="icon-settings">
+            <span id="search-input"><input type="search" id="icon-setting--keyword" placeholder="Search icons" /></span>
+        </div>
+
+        <main>
+            <div id="gallery"></div>
+            <div id="inspector">
+                <div class="empty-state">Choose an icon to see its details here</div>
+            </div>
+        </main>
+
+        <template id="icon-summary-template">
+            <button class="icon-summary">
+                <figure>
+                    <div class="icon-preview"></div>
+                    <figcaption></figcaption>
+                </figure>
+            </button>
+        </template>
+
+        <template id="icon-detail-template">
+            <div class="icon-detail">
+                <figure>
+                    <div class="icon-preview"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <ul class="icon-tag-list"></ul>
+                <p></p>
+            </div>
+        </template>
+
+        <template id="icon-tag-template">
+            <li class="icon-tag"></li>
+        </template>
+
+        <script type="module" src="assets/js/main.js"></script>
+    </body>
+</html>

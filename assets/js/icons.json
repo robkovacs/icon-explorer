@@ -1,0 +1,426 @@
+{
+    "arrow-down": {
+        "tags": ["arrow", "down"],
+        "description": "for going down"
+    },
+    "arrow-left": {
+        "tags": ["arrow", "left"],
+        "description": ""
+    },    
+    "arrow-right": {
+        "tags": ["arrow", "right"],
+        "description": ""
+    },
+    "arrow-up": {
+        "tags": ["arrow", "up"],
+        "description": ""
+    },
+    "arrows-horizontal": {
+        "tags": [],
+        "description": ""
+    },
+    "arrows-vertical": {
+        "tags": [],
+        "description": ""
+    },
+    "asterisk": {
+        "tags": [],
+        "description": "dunno"
+    },
+    "bar-chart": {
+        "tags": [],
+        "description": ""
+    },
+    "bell": {
+        "tags": [],
+        "description": "for alerts"
+    },
+    "brand-facebook": {
+        "tags": ["logo","social", "meta"],
+        "description": "Facebook logo"
+    },
+    "brand-linkedin": {
+        "tags": ["logo","social"],
+        "description": ""
+    },
+    "brand-slack": {
+        "tags": ["logo","social","support"],
+        "description": ""
+    },
+    "brand-twitter": {
+        "tags": ["logo","social", "x"],
+        "description": ""
+    },
+    "building": {
+        "tags": ["office", "company"],
+        "description": ""
+    },
+    "bullet-outline": {
+        "tags": [],
+        "description": ""
+    },
+    "bullet-square": {
+        "tags": [],
+        "description": ""
+    },
+    "bullet": {
+        "tags": [],
+        "description": ""
+    },
+    "calendar": {
+        "tags": ["date", "datepicker"],
+        "description": "For date pickers and such"
+    },
+    "caret-down": {
+        "tags": [],
+        "description": ""
+    },
+    "caret-left": {
+        "tags": [],
+        "description": ""
+    },
+    "caret-right": {
+        "tags": [],
+        "description": ""
+    },
+    "caret-up": {
+        "tags": [],
+        "description": ""
+    },
+    "chat": {
+        "tags": [],
+        "description": ""
+    },
+    "check-all": {
+        "tags": [],
+        "description": ""
+    },
+    "check-circle-inverted": {
+        "tags": [],
+        "description": ""
+    },
+    "check-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "check-none": {
+        "tags": [],
+        "description": ""
+    },
+    "check": {
+        "tags": [],
+        "description": ""
+    },
+    "chevron-down": {
+        "tags": [],
+        "description": ""
+    },
+    "chevron-left": {
+        "tags": [],
+        "description": ""
+    },
+    "chevron-right": {
+        "tags": [],
+        "description": ""
+    },
+    "chevron-up": {
+        "tags": [],
+        "description": ""
+    },
+    "clipboard": {
+        "tags": [],
+        "description": ""
+    },
+    "clock": {
+        "tags": [],
+        "description": ""
+    },
+    "close-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "close": {
+        "tags": [],
+        "description": ""
+    },
+    "copy": {
+        "tags": ["clipboard", "copy", "cut", "paste"],
+        "description": "An action that copies something to the clipboard"
+    },
+    "credit-card": {
+        "tags": [],
+        "description": ""
+    },
+    "cut": {
+        "tags": ["clipboard", "cut", "copy", "paste"],
+        "description": "An action that cuts out a selection, so it can be pasted it somewhere else"
+    },
+    "document-csv": {
+        "tags": ["document", "csv", "file", "data", "spreadsheet"],
+        "description": "A CSV document"
+    },
+    "document-pdf": {
+        "tags": ["document", "pdf", "file", "adobe", "acrobat"],
+        "description": "A PDF document"
+    },
+    "document-xls": {
+        "tags": ["document", "xls", "xlsx", "file", "microsoft", "excel", "spreadsheet"],
+        "description": "An Excel spreadsheet"
+    },
+    "document-zip": {
+        "tags": ["document", "zip", "file", "compressed", "zipped"],
+        "description": "A ZIP file"
+    },
+    "document": {
+        "tags": ["document", "file", "page", "paper"],
+        "description": "A file that doesn't have a more specific <code>document-*</code> icon that matches its type"
+    },
+    "dollar": {
+        "tags": ["currency", "finance", "money"],
+        "description": "Only use if you're sure that the context is US-only, otherwise use <code>money</code>"
+    },
+    "download": {
+        "tags": [],
+        "description": ""
+    },
+    "edit": {
+        "tags": ["pencil"],
+        "description": ""
+    },
+    "ellipsis": {
+        "tags": [],
+        "description": ""
+    },
+    "error": {
+        "tags": [],
+        "description": ""
+    },
+    "external-link": {
+        "tags": [],
+        "description": ""
+    },
+    "eye-slash": {
+        "tags": ["toggle", "hide"],
+        "description": ""
+    },
+    "eye": {
+        "tags": ["toggle", "show"],
+        "description": ""
+    },
+    "filter": {
+        "tags": [],
+        "description": ""
+    },
+    "folder-open": {
+        "tags": [],
+        "description": ""
+    },
+    "folder": {
+        "tags": [],
+        "description": ""
+    },
+    "fullscreen-close": {
+        "tags": [],
+        "description": ""
+    },
+    "fullscreen-open": {
+        "tags": [],
+        "description": ""
+    },
+    "gear": {
+        "tags": [],
+        "description": ""
+    },
+    "globe": {
+        "tags": ["international", "i18n", "language", "locale", "localization", "globalization"],
+        "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format."
+    },
+    "heart": {
+        "tags": [],
+        "description": ""
+    },
+    "help": {
+        "tags": ["question-circle"],
+        "description": ""
+    },
+    "home": {
+        "tags": [],
+        "description": ""
+    },
+    "id-card": {
+        "tags": [],
+        "description": ""
+    },
+    "image": {
+        "tags": [],
+        "description": ""
+    },
+    "info-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "link": {
+        "tags": [],
+        "description": ""
+    },
+    "list": {
+        "tags": [],
+        "description": ""
+    },
+    "lock-open": {
+        "tags": [],
+        "description": ""
+    },
+    "lock": {
+        "tags": [],
+        "description": ""
+    },
+    "logout": {
+        "tags": [],
+        "description": ""
+    },
+    "mail": {
+        "tags": [],
+        "description": ""
+    },
+    "menu": {
+        "tags": [],
+        "description": ""
+    },
+    "message": {
+        "tags": [],
+        "description": ""
+    },
+    "minus-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "minus": {
+        "tags": [],
+        "description": ""
+    },
+    "money": {
+        "tags": [],
+        "description": ""
+    },
+    "paste": {
+        "tags": [],
+        "description": ""
+    },
+    "paystub": {
+        "tags": [],
+        "description": ""
+    },
+    "person-manage": {
+        "tags": [],
+        "description": ""
+    },
+    "person-plus": {
+        "tags": [],
+        "description": ""
+    },
+    "person-three": {
+        "tags": [],
+        "description": ""
+    },
+    "person": {
+        "tags": [],
+        "description": ""
+    },
+    "phone-mobile": {
+        "tags": [],
+        "description": ""
+    },
+    "phone": {
+        "tags": [],
+        "description": ""
+    },
+    "pie-chart": {
+        "tags": [],
+        "description": ""
+    },
+    "pin": {
+        "tags": [],
+        "description": ""
+    },
+    "play-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "plus-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "plus": {
+        "tags": [],
+        "description": ""
+    },
+    "print": {
+        "tags": [],
+        "description": ""
+    },
+    "question-circle": {
+        "tags": ["help"],
+        "description": ""
+    },
+    "redo": {
+        "tags": [],
+        "description": ""
+    },
+    "retry": {
+        "tags": [],
+        "description": ""
+    },
+    "search": {
+        "tags": [],
+        "description": ""
+    },
+    "share": {
+        "tags": [],
+        "description": ""
+    },
+    "slash-circle": {
+        "tags": [],
+        "description": ""
+    },
+    "sort-asc": {
+        "tags": [],
+        "description": ""
+    },
+    "sort-desc": {
+        "tags": [],
+        "description": ""
+    },
+    "sort": {
+        "tags": [],
+        "description": ""
+    },
+    "sync": {
+        "tags": [],
+        "description": ""
+    },
+    "trash": {
+        "tags": [],
+        "description": ""
+    },
+    "undo": {
+        "tags": [],
+        "description": ""
+    },
+    "upload": {
+        "tags": [],
+        "description": ""
+    },
+    "warning": {
+        "tags": [],
+        "description": ""
+    },
+    "whats-new": {
+        "tags": [],
+        "description": ""
+    },
+    "zap": {
+        "tags": [],
+        "description": ""
+    }
+}
