@@ -39,12 +39,15 @@
         );
 
         let count = Object.keys(data).length + " matching icon";
+        document.querySelector('#icon-count').textContent = '';
 
         if (Object.keys(data).length !== 1) {
             count += "s";
         }
 
-        document.querySelector('#icon-count').textContent = count;
+        if (count > 0) {
+            document.querySelector('#icon-count').textContent = count;
+        }
 
         for (var key in data) {
             let iconName = key;
