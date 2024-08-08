@@ -99,7 +99,7 @@ body {
     .icon-preview > svg {
         height: 1.5rem;
         width: 1.5rem;
-        display: inline-block;
+        display: block;
     }
 
 /* Icon Summary */
@@ -146,8 +146,11 @@ body {
     }
     
     .icon-summary .icon-preview {
-        text-align: center;
         margin-bottom: 0.5rem;
+    }
+
+    .icon-summary .icon-preview > svg {
+        margin: 0 auto;
     }
     
 /* Icon Detail */
