@@ -85,7 +85,7 @@
         await getIcons();
         let matchingIcons = {};
 
-        const regex = new RegExp(query.trim());
+        const regex = new RegExp(query.toLowerCase.trim());
         
         for (var key in icons) {
             let iconName = key;
