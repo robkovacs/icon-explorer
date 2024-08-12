@@ -159,17 +159,17 @@ body {
         background-color: #eef0f4;
     }
 
-    .current {
+    #gallery .current {
         border: 1px solid #0070D4;
         box-shadow: inset 1px 1px 0 #0070D4, inset -1px -1px 0 #0070D4;
         background-color: #E5F3FF;
     }
 
-    .current:hover {
+    #gallery .current:hover {
         background-color: #B6E5FF;
     }
 
-    .current:active {
+    #gallery .current:active {
         background-color: #6DC8FF;
     }
 

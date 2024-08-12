@@ -28,7 +28,6 @@
             gallery.innerHTML = '<div class="empty-state">No matching icons found</div>';
             inspector.style.display = "none";
         }
-
         
         const iconSummaryTemplate = document.querySelector("#icon-summary-template");
 
