@@ -123,8 +123,6 @@
     }
 
     function showIconDetails(name, tags, description, isDeprecated, isNew) {
-        // TODO: add support for "deprecated" badge
-
         const inspector = document.querySelector("#inspector");
         
         const iconDetailTemplate = document.querySelector("#icon-detail-template");
