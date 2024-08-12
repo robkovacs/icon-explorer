@@ -1,19 +1,45 @@
 {
     "arrow-down": {
-        "tags": ["arrow", "down"],
-        "description": "for going down"
+        "tags": [
+            "arrow",
+            "down",
+            "navigation",
+            "list",
+            "directional"
+        ],
+        "description": "Move down"
     },
     "arrow-left": {
-        "tags": ["arrow", "left"],
-        "description": ""
-    },    
+        "tags": [
+            "arrow",
+            "left",
+            "navigation",
+            "list",
+            "direction",
+            "back"
+        ],
+        "description": "Navigate back; go to the previous item in a list; move to the left"
+    },
     "arrow-right": {
-        "tags": ["arrow", "right"],
-        "description": ""
+        "tags": [
+            "arrow",
+            "right",
+            "navigation",
+            "list",
+            "direction",
+            "forward"
+        ],
+        "description": "Navigate forward; go to the next item in a list; move to the right"
     },
     "arrow-up": {
-        "tags": ["arrow", "up"],
-        "description": ""
+        "tags": [
+            "arrow",
+            "up",
+            "navigation",
+            "list",
+            "direction"
+        ],
+        "description": "Move up"
     },
     "arrows-horizontal": {
         "tags": [],
@@ -31,123 +57,178 @@
         "isDeprecated": true
     },
     "bar-chart": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "chart",
+            "data",
+            "analytics",
+            "insights"
+        ],
+        "description": "Used to represent analytics, aka data visualizations"
     },
     "bell": {
-        "tags": [],
-        "description": "for alerts"
+        "tags": [
+            "notification",
+            "alerts",
+            "alarm"
+        ],
+        "description": "Time-sensitive notifications of activity within the system"
     },
     "brand-facebook": {
-        "tags": ["logo","social", "meta"],
-        "description": "Facebook logo"
+        "tags": [
+            "logo",
+            "social",
+            "meta"
+        ],
+        "description": "Logo for Facebook"
     },
     "brand-linkedin": {
-        "tags": ["logo","social"],
-        "description": ""
+        "tags": [
+            "logo",
+            "social"
+        ],
+        "description": "Logo for LinkedIn"
     },
     "brand-slack": {
-        "tags": ["logo","social","support"],
-        "description": ""
+        "tags": [
+            "logo",
+            "social",
+            "support"
+        ],
+        "description": "Logo for Slack"
     },
     "brand-twitter": {
-        "tags": ["logo","social", "x"],
-        "description": ""
+        "tags": [
+            "logo",
+            "social",
+            "twitter",
+            "x"
+        ],
+        "description": "Logo for X, formerly known as Twitter"
     },
     "building": {
-        "tags": ["office", "company"],
-        "description": ""
+        "tags": [
+            "office",
+            "company",
+            "work"
+        ],
+        "description": "Used to represent the parent company of a Justworks product instance; or an work location, as in work address, work email, or work phone"
     },
     "bullet-outline": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "bullet",
+            "bulleted",
+            "list"
+        ],
+        "description": "Third level of a bulleted list"
     },
     "bullet-square": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "bullet",
+            "bulleted",
+            "list"
+        ],
+        "description": "Second level of a bulleted list"
     },
     "bullet": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "bullet",
+            "bulleted",
+            "list"
+        ],
+        "description": "First level of a bulleted list"
     },
     "calendar": {
-        "tags": ["date", "datepicker"],
-        "description": "For date pickers and such"
+        "tags": [
+            "date",
+            "datepicker"
+        ],
+        "description": "For opening a date picker"
     },
     "caret-down": {
-        "tags": [],
-        "description": ""
+        "tags": ["caret", "down", "below", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear below the item that triggers it (space permitting)"
     },
     "caret-left": {
-        "tags": [],
-        "description": ""
+        "tags": ["caret", "left", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the left of the item that triggers it (space permitting)"
     },
     "caret-right": {
-        "tags": [],
-        "description": ""
+        "tags": ["caret", "right", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the right of the item that triggers it (space permitting)"
     },
     "caret-up": {
-        "tags": [],
-        "description": ""
+        "tags": ["caret", "up", "above", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear above the item that triggers it (space permitting)"
     },
     "chat": {
-        "tags": [],
-        "description": ""
+        "tags": ["contact", "message", "chatbot", "forethought", "support"],
+        "description": "Send a chat or instant message to Customer Success"
     },
     "check-all": {
-        "tags": [],
-        "description": ""
+        "tags": ["clear", "select", "checkbox", "checkboxes", "all", "toggle", "choose"],
+        "description": "Select all of the items that can be selected."
     },
     "check-circle-inverted": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "check-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["notification", "notifications", "alert", "alerts", "success", "good", "positive"],
+        "description": "Inform the user that their intended action has taken place, as they expected."
     },
     "check-none": {
-        "tags": [],
-        "description": ""
+        "tags": ["clear", "select", "unselect", "deselect", "checkboxes", "none", "toggle", "choose"],
+        "description": "Select none of the items that can be selected."
     },
     "check": {
-        "tags": [],
-        "description": ""
+        "tags": ["check", "approve"],
+        "description": "Mark something as approved"
     },
     "chevron-down": {
-        "tags": [],
-        "description": ""
+        "tags": ["chevron", "down", "below", "open", "expand", "show", "toggle", "visibility"],
+        "description": "Shows something that will insert itself into the flow of the existing UI, and appear below the item that triggers it"
     },
     "chevron-left": {
-        "tags": [],
-        "description": ""
+        "tags": ["chevron", "left", "close", "collapse", "hide", "toggle", "visibility"],
+        "description": "Hides something that has inserted itself into the flow of the existing UI, to the right of this item"
     },
     "chevron-right": {
-        "tags": [],
-        "description": ""
+        "tags": ["chevron", "right", "open", "expand", "show", "toggle", "visibility"],
+        "description": "Shows something that will insert itself into the flow of the existing UI, and appear to the right of the item that triggers it"
     },
     "chevron-up": {
-        "tags": [],
-        "description": ""
+        "tags": ["chevron", "up", "close", "collapse", "hide", "toggle", "visibility"],
+        "description": "Hides something that has inserted itself into the flow of the existing UI, below this item"
     },
     "clipboard": {
-        "tags": [],
-        "description": ""
+        "tags": ["navigation", "HR", "human resources"],
+        "description": "Used for the \"HR\" section of the main navigation"
     },
     "clock": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "time",
+            "hours", 
+            "timepicker",
+            "time picker"
+        ],
+        "description": "Used to represent a time picker"
     },
     "close-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["clear", "empty"],
+        "description": "Clear the current input"
     },
     "close": {
-        "tags": [],
-        "description": ""
+        "tags": ["x", "close", "exit", "deny", "disapprove"],
+        "description": "Close the current view; or deny or disapprove something (in contrast with <code>check</code>"
     },
     "copy": {
-        "tags": ["clipboard", "copy", "cut", "paste"],
+        "tags": [
+            "clipboard",
+            "copy",
+            "cut",
+            "paste"
+        ],
         "description": "An action that copies something to the clipboard"
     },
     "credit-card": {
@@ -156,64 +237,146 @@
         "isDeprecated": true
     },
     "cut": {
-        "tags": ["clipboard", "cut", "copy", "paste"],
+        "tags": [
+            "clipboard",
+            "cut",
+            "copy",
+            "paste"
+        ],
         "description": "An action that cuts out a selection, so it can be pasted it somewhere else"
     },
     "document-csv": {
-        "tags": ["document", "csv", "file", "data", "spreadsheet"],
+        "tags": [
+            "document",
+            "csv",
+            "file",
+            "data",
+            "spreadsheet"
+        ],
         "description": "A CSV document"
     },
     "document-pdf": {
-        "tags": ["document", "pdf", "file", "adobe", "acrobat"],
+        "tags": [
+            "document",
+            "pdf",
+            "file",
+            "adobe",
+            "acrobat"
+        ],
         "description": "A PDF document"
     },
     "document-xls": {
-        "tags": ["document", "xls", "xlsx", "file", "microsoft", "excel", "spreadsheet"],
+        "tags": [
+            "document",
+            "xls",
+            "xlsx",
+            "file",
+            "microsoft",
+            "excel",
+            "spreadsheet"
+        ],
         "description": "An Excel spreadsheet"
     },
     "document-zip": {
-        "tags": ["document", "zip", "file", "compressed", "zipped"],
+        "tags": [
+            "document",
+            "zip",
+            "file",
+            "compressed",
+            "zipped"
+        ],
         "description": "A ZIP file"
     },
     "document": {
-        "tags": ["document", "file", "page", "paper"],
+        "tags": [
+            "document",
+            "file",
+            "page",
+            "paper"
+        ],
         "description": "A file that doesn't have a more specific <code>document-*</code> icon that matches its type"
     },
     "dollar": {
-        "tags": ["currency", "finance", "money"],
+        "tags": [
+            "currency",
+            "finance",
+            "money"
+        ],
         "description": "Only use if you're sure that the context is US-only, otherwise use <code>money</code>"
     },
     "download": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "file",
+            "files",
+            "download",
+            "upload"
+        ],
+        "description": "Download a copy of one or more files to the user's device. Oppposite of <code>upload</code>"
     },
     "edit": {
-        "tags": ["pencil"],
-        "description": ""
+        "tags": [
+            "pencil",
+            "change",
+            "update"
+        ],
+        "description": "Change the state of an object within the application"
     },
     "ellipsis": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "menu",
+            "actions",
+            "more",
+            "show",
+            "see",
+            "all"
+        ],
+        "description": "For an overflow menu, when the full list of possible actions can't be displayed by default"
     },
     "error": {
-        "tags": [],
-        "description": ""
+        "tags": ["notification", "notifications", "alert", "alerts", "error", "invalid", "bad", "negative"],
+        "description": "Inform the user that their intended action could not be completed, due to an error by them or by us."
+
     },
     "external-link": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "open",
+            "new tab",
+            "new window",
+            "accessibility",
+            "a11y",
+            "link"
+        ],
+        "description": "Used to indicate that a URL will open in a new window or new tab; whether or not that URL is on the justworks.com domain"
     },
     "eye-slash": {
-        "tags": ["toggle", "hide"],
-        "description": ""
+        "tags": [
+            "toggle",
+            "hide",
+            "show",
+            "hidden",
+            "security",
+            "password"
+        ],
+        "description": "Hide something that is currently showing, such as a password"
     },
     "eye": {
-        "tags": ["toggle", "show"],
-        "description": ""
+        "tags": [
+            "toggle",
+            "show",
+            "hide",
+            "hidden",
+            "security",
+            "password"
+        ],
+        "description": "Show something that is currently hidden, such as a password"
     },
     "filter": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "filter",
+            "search",
+            "options"
+        ],
+        "description": "Narrow down a set of items to those that match specific criteria"
     },
     "folder-open": {
         "tags": [],
@@ -226,53 +389,103 @@
         "isDeprecated": true
     },
     "fullscreen-close": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "fullscreen",
+            "open",
+            "view",
+            "expand",
+            "collapse",
+            "shrink",
+            "less"
+        ],
+        "description": "Shrink a view (that is currently taking up the entire viewport) to a smaller size"
     },
     "fullscreen-open": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "fullscreen",
+            "open",
+            "view",
+            "expand",
+            "more"
+        ],
+        "description": "Expand a view to take up the entire viewport"
     },
     "gear": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "gear",
+            "settings"
+        ],
+        "description": "Settings or configuration options relating to the system, or the current context"
     },
     "globe": {
-        "tags": ["international", "i18n", "language", "locale", "localization", "globalization"],
+        "tags": [
+            "international",
+            "i18n",
+            "language",
+            "locale",
+            "localization",
+            "globalization"
+        ],
         "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format."
     },
     "heart": {
-        "tags": [],
-        "description": ""
+        "tags": ["benefits", "navigation"],
+        "description": "Used for the \"Benefits\" section of the main navigation"
     },
     "help": {
-        "tags": ["question-circle"],
-        "description": ""
+        "tags": [
+            "question-circle"
+        ],
+        "description": "Get help; contact Customer Success"
     },
     "home": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "home",
+            "homepage",
+            "dashboard"
+        ],
+        "description": "The initial or top-level summary view of an application"
     },
     "id-card": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "benefits",
+            "insurance",
+            "card"
+        ],
+        "description": "The card typically issued with a benefit that indicates the policy holder's name, any dependents, and their level of conerage"
     },
     "image": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "photo",
+            "image",
+            "picture"
+        ],
+        "description": "Generic representation of a photo, or other image"
     },
     "info-circle": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "did you know",
+            "tooltip",
+            "fun fact"
+        ],
+        "description": "Useful, but not vital, information"
     },
     "internal-controls": {
-        "tags": [],
-        "description": "",
+        "tags": [
+            "CS Tools",
+            "JCC",
+            "admin"
+        ],
+        "description": "Settings and tools available only to Justworkers",
         "isNew": true
     },
     "link": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "list",
+            "resources",
+            "url"
+        ],
+        "description": "Used to represent a link in a list of resources (as compared to a PDF, video, etc.)"
     },
     "list": {
         "tags": [],
@@ -281,72 +494,108 @@
     },
     "lock-open": {
         "tags": [],
-        "description": ""
+        "description": "",
+        "isDeprecated": true
     },
     "lock": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "security",
+            "password",
+            "authorization",
+            "unauthorized"
+        ],
+        "description": "Only available to authorized users"
     },
     "logout": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "log out",
+            "log off",
+            "sign out",
+            "sign off"
+        ],
+        "description": "Exit the system and unauthenticate"
     },
     "mail": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "email",
+            "address",
+            "contact"
+        ],
+        "description": "Email something"
     },
     "menu": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "menu",
+            "navigation"
+        ],
+        "description": "Click or tap to open the application-level navigation on smaller viewports"
     },
     "message": {
-        "tags": ["communication", "speech", "bubble", "text", "talking", "conversation", "chat"],
+        "tags": [
+            "communication",
+            "speech",
+            "bubble",
+            "text",
+            "talking",
+            "conversation",
+            "chat"
+        ],
         "description": "Use <code>chat</code> instead",
         "isDeprecated": true
     },
     "minus-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["remove", "unlink", "delete", "clear", "disconnect", "minus", "circle"],
+        "description": "Used to break a connection or association between two objects"
     },
     "minus": {
-        "tags": [],
-        "description": ""
+        "tags": ["subtract", "minus", "decrease", "negative"],
+        "description": "Used to negatively increment a value"
     },
     "money": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "currency",
+            "finance",
+            "money"
+        ],
+        "description": "Represent financial or monetary transactions, especially when they can be in currencies that are not U.S. dollars"
     },
     "paste": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "clipboard",
+            "copy",
+            "cut",
+            "paste"
+        ],
+        "description": "An action that pastes something from the clipboard into the current context"
     },
     "paystub": {
-        "tags": [],
-        "description": ""
+        "tags": ["money", "pay"],
+        "description": "Use <code>money</code> instead",
+        "isDeprecated": true
     },
     "person-manage": {
-        "tags": [],
-        "description": ""
+        "tags": ["person", "manager", "reports", "reporting", "people"],
+        "description": "Indicates a manager-employee relationship between two people"
     },
     "person-plus": {
-        "tags": [],
-        "description": ""
+        "tags": ["plus", "add", "create", "person", "people"],
+        "description": "Add a person to the system, or associate a person with this object"
     },
     "person-three": {
-        "tags": [],
-        "description": ""
+        "tags": ["people", "person", "group", "team", "department"],
+        "description": "A group of people that can be two or more (even if it may not always be), such as a department or benefits class"
     },
     "person": {
-        "tags": [],
-        "description": ""
+        "tags": ["person", "single", "one", "people", "user"],
+        "description": "Representing a single individual"
     },
     "phone-mobile": {
-        "tags": [],
-        "description": ""
+        "tags": ["telephone", "tel", "cell", "cellular", "iphone", "ios", "android"],
+        "description": "Used to represent a phone number, when it's known to be associated with a mobile device"
     },
     "phone": {
-        "tags": [],
-        "description": ""
+        "tags": ["telephone", "tel", "cell", "cellular", "iphone", "ios", "android"],
+        "description": "Used to represent a phone number"
     },
     "pie-chart": {
         "tags": [],
@@ -359,84 +608,113 @@
         "isDeprecated": true
     },
     "play-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["play", "circle", "video", "media", "youtube", "vimeo", "embed"],
+        "description": "Play a video"
     },
     "plus-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["add", "link", "create", "connect", "plus", "circle"],
+        "description": "Used to create or make a connection or association between two objects"
     },
     "plus": {
-        "tags": [],
-        "description": ""
+        "tags": ["add", "plus", "increase", "positive"],
+        "description": "Used to create an object in the system, or positively increment a value"
     },
     "print": {
-        "tags": [],
-        "description": ""
+        "tags": ["print", "printer", "export"],
+        "description": "Send data to the user's printer"
     },
     "question-circle": {
-        "tags": ["help", "support"],
+        "tags": [
+            "help",
+            "support"
+        ],
         "description": "Use <code>help</code> instead",
         "isDeprecated": true
     },
     "redo": {
-        "tags": [],
-        "description": ""
+        "tags": ["redo", "undo", "history", "actions"],
+        "description": "Opposite of <code>undo</code>—move forward in the sequence of previous actions that have been taken"
     },
     "retry": {
-        "tags": [],
-        "description": ""
+        "tags": ["retry", "again", "repeat"],
+        "description": "Execute a command one more time, especially when the last attempt failed"
     },
     "search": {
-        "tags": [],
-        "description": ""
+        "tags": ["search", "magnifying glass", "magnifier", "find", "look"],
+        "description": "Find matching objects within a list or the system, usually by typing in keywords"
     },
     "share": {
-        "tags": [],
-        "description": ""
+        "tags": ["share", "send", "social media", "post"],
+        "description": "Send an item, or a link to it, to another user"
     },
     "slash-circle": {
-        "tags": [],
-        "description": ""
+        "tags": ["disable", "disabled", "off", "turn off", "toggle"],
+        "description": "Disable something"
     },
     "sort-asc": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "sort",
+            "sorting",
+            "asc",
+            "ascending",
+            "table",
+            "list"
+        ],
+        "description": "Sorted smallest to largest; A to Z, 0 to 9; first to last; oldest to newest; etc."
     },
     "sort-desc": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "sort",
+            "sorting",
+            "desc",
+            "descending",
+            "table",
+            "list"
+        ],
+        "description": "Sorted largest to smallest; Z to A, 9 to 0; last to first; newest to oldest; etc."
     },
     "sort": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "sort",
+            "sorting",
+            "unsorted",
+            "table",
+            "list"
+        ],
+        "description": "Indicates that the current view can be sorted by the associated attribute, but currently is not"
     },
     "sync": {
-        "tags": [],
-        "description": ""
+        "tags": ["sync", "update", "send"],
+        "description": "Communicate between two systems so that the relevant data in each is equivalent"
     },
     "trash": {
-        "tags": [],
-        "description": ""
+        "tags": ["remove", "delete", "garbage", "can", "oscar"],
+        "description": "Delete something from the system or from this context, permanently"
     },
     "undo": {
-        "tags": [],
-        "description": ""
+        "tags": ["undo", "redo", "history", "actions"],
+        "description": "Go backward in the sequence of previous actions that have been taken. Opposite of <code>redo</code>"
+
     },
     "upload": {
-        "tags": [],
-        "description": ""
+        "tags": [
+            "file",
+            "files",
+            "download",
+            "upload"
+        ],
+        "description": "Upload a copy of one or more files from the user's device. Oppposite of <code>download</code>"
     },
     "warning": {
-        "tags": [],
-        "description": ""
+        "tags": ["warning", "watch", "oops", "error", "mistake"],
+        "description": "When we can't be sure that something is an error in invalid, but we think it might be"
     },
     "whats-new": {
-        "tags": [],
-        "description": ""
+        "tags": ["new", "sparkles", "ai", "exciting", "magic"],
+        "description": "Highlight a new feature or suggestion within the system"
     },
     "zap": {
-        "tags": [],
-        "description": ""
+        "tags": ["autofill", "quick", "shortcut"],
+        "description": "Used on timecards to autofill 8 hours a day, Monday through Friday"
     }
 }
