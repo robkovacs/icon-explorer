@@ -91,6 +91,8 @@ body {
         padding: 2rem;
         background-color: #f7f8fb;
         border-radius: 0.5rem;
+        max-height: calc(100vh - 4rem);
+        overflow-y: scroll;
     }
 
 /* Icon Summary OR Detail */
