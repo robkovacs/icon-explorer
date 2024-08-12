@@ -1,5 +1,9 @@
 (() => {
     let icons;
+    const input = document.querySelector("input");
+    const deprecatedToggle = document.querySelector("#toggle-deprecated");
+    let lastQuery = input.value;
+    
 
     async function getIcons() {
         const response = await fetch('assets/js/icons.json');
@@ -89,9 +93,12 @@
         }
     };
 
-    async function filterIcons(query = '') {
+    async function filterIcons(query = '', hideDeprecated = false) {
         await getIcons();
         let matchingIcons = {};
+        if (!query) {
+            query = input.value;
+        }
 
         const regex = new RegExp(escapeRegex(query.toLowerCase().trim()));
         
@@ -100,6 +107,9 @@
             let iconTags = icons[key].tags;
             let iconDescription = icons[key].description;
 
+            if (hideDeprecated && icons[key].isDeprecated) {
+                continue;
+            }
 
             if (iconName.search(regex) !== -1) {
                matchingIcons[key] = icons[key];
@@ -201,7 +211,6 @@
     getIcons();
     populateGallery();
 
-    const input = document.querySelector("input");
     if (input.value) {
         filterIcons(input.value);
     }
@@ -217,10 +226,20 @@
     }
 
     input.addEventListener('keyup', debounce(function(e) {
-        if (this.value) {
-            filterIcons(this.value);
-        } else {
-            populateGallery();
+        if (this.value !== lastQuery) {
+            if (this.value) {
+                filterIcons(this.value);
+                lastQuery = this.value;
+            } else {
+                populateGallery();
+            }
         }
-    }, 250));
+        }, 250));
+
+    deprecatedToggle.addEventListener('click', function(e) {
+        const currentState = this.getAttribute('aria-checked') === 'true';
+        const newState = String(!currentState);
+        this.setAttribute('aria-checked', newState);
+        filterIcons(input.value, !currentState);
+    });
 })();

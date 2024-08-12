@@ -11,8 +11,19 @@
     <body>
         <h1>Justworks system icons</h1>
         <div id="icon-settings">
-            <span id="search-input"><input type="text" id="icon-setting--keyword" placeholder="Search icons" /></span>
-            <span id="icon-count"></span>
+            <div id="search-input">
+                <input type="text" id="icon-setting--keyword" placeholder="Search icons" />
+            </div>
+            <div>
+                <button id="toggle-deprecated" role="switch" aria-checked="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="32">
+                        <rect class="toggle-frame" x="0.5" y="2.5" width="31" height="19" ry="10" stroke="#848890" stroke-width="1" fill="#F7F8FB" />
+                        <circle class="toggle-switch" cx="10" cy="12" r="9.5" stroke="#848890" stroke-width="1" fill="#fff" />
+                    </svg>
+                    Hide deprecated icons
+                </button>
+            </div>
+            <div id="icon-count"></div>
         </div>
 
         <main>
