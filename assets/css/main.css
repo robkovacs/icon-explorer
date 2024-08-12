@@ -64,11 +64,11 @@ body {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;    
-        background-color: transparent;
+        background-color: #fff;
         font-size: inherit;
         line-height: inherit;
         font-family: inherit;
-        color: inherit;
+        color: #1c1d1f;
         padding: 0;
         border: none;
         cursor: pointer;
