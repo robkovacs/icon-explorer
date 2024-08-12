@@ -229,7 +229,7 @@
         if (this.value !== lastQuery) {
             if (this.value) {
                 const toggleState = deprecatedToggle.getAttribute('aria-checked') === 'true'
-                filterIcons(this.value, !currentState);
+                filterIcons(this.value, toggleState);
                 lastQuery = this.value;
             } else {
                 populateGallery();
