@@ -61,7 +61,7 @@ body {
     }
 
     #toggle-deprecated {
-        background-color: transparent;
+        background-color: #fff;
         font-size: inherit;
         line-height: inherit;
         font-family: inherit;
