@@ -25,7 +25,6 @@
         }
 
         if (JSON.stringify(data) === '{}') {
-            console.log(data);
             gallery.innerHTML = '<div class="empty-state">No matching icons found</div>';
             inspector.style.display = "none";
         }
