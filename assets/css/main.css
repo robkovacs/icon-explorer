@@ -61,7 +61,10 @@ body {
     }
 
     #toggle-deprecated {
-        background-color: #fff;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;    
+        background-color: transparent;
         font-size: inherit;
         line-height: inherit;
         font-family: inherit;
