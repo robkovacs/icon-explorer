@@ -65,6 +65,8 @@ body {
         font-size: inherit;
         line-height: inherit;
         font-family: inherit;
+        color: inherit;
+        padding: 0;
         border: none;
         cursor: pointer;
         display: flex;
