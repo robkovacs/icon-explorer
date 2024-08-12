@@ -21,12 +21,15 @@ body {
 
     #icon-settings {
         margin-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        align-items: center;
     }
 
     #search-input {
-        display: inline-block;
         position: relative;
-        margin-right: 2rem;
     }
 
     #search-input input {
@@ -59,7 +62,7 @@ body {
 
     #icon-count {
         color: #5e6167;
-        display: inline-block;
+        white-space: nowrap;
     }
 
 /* General Layout */
