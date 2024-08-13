@@ -1,5 +1,5 @@
 ## Must
-- [ ]Turn the inspector into a modal window (😱) on smaller viewports
+- [ ] Turn the inspector into a modal window (😱) on smaller viewports
 - [x] Fix sorting of icons (again...): one-word icons come first, but the rest are backwards
 - [ ] The logo icons aren't _actually_ custom—think of a better way to describe their source
 - [ ] Find a more permanent place to host this
