@@ -5,10 +5,14 @@
 
 ## Should
 * Add a clear button to the search field, when the value is not blank
+* Replace browser-default focus states with Milo-style focus states
+* Add hover state on the search field
 
 ## Could
 * Add a "list" view, to go with the current "grid" view, that lists out all the details of every icon in a single shot; include a toggle between the two
-* Clean up CSS
+
+## Forever true, tbh 😅
+* Clean up CSS 
 * Clean up JS
 
 ## Not sure
