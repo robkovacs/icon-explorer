@@ -272,6 +272,7 @@
         const toggleState =
         deprecatedToggle.getAttribute("aria-checked") === "true";
         filterIcons("", toggleState);
+        input.focus();
     });
     
     getIcons();
