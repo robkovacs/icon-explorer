@@ -7,7 +7,8 @@
             "list",
             "direction"
         ],
-        "description": "Move down"
+        "description": "Move down",
+        "source": "Phosphor Regular, arrow-down"
     },
     "arrow-left": {
         "tags": [
@@ -18,7 +19,8 @@
             "direction",
             "back"
         ],
-        "description": "Navigate back; go to the previous item in a list; move to the left"
+        "description": "Navigate back; go to the previous item in a list; move to the left",
+        "source": "Phosphor Regular, arrow-left"
     },
     "arrow-right": {
         "tags": [
@@ -29,7 +31,8 @@
             "direction",
             "forward"
         ],
-        "description": "Navigate forward; go to the next item in a list; move to the right"
+        "description": "Navigate forward; go to the next item in a list; move to the right",
+        "source": "Phosphor Regular, arrow-right"
     },
     "arrow-up": {
         "tags": [
@@ -39,22 +42,26 @@
             "list",
             "direction"
         ],
-        "description": "Move up"
+        "description": "Move up",
+        "source": "Phosphor Regular, arrow-up"
     },
     "arrows-horizontal": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, arrows-left-right"
     },
     "arrows-vertical": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, arrows-down-up"
     },
     "asterisk": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, asterisk"
     },
     "bar-chart": {
         "tags": [
@@ -63,7 +70,8 @@
             "analytics",
             "insights"
         ],
-        "description": "Used to represent analytics, aka data visualizations"
+        "description": "Used to represent analytics, aka data visualizations",
+        "source": "Phosphor Regular, chart-bar"
     },
     "bell": {
         "tags": [
@@ -71,7 +79,8 @@
             "alerts",
             "alarm"
         ],
-        "description": "Time-sensitive notifications of activity within the system"
+        "description": "Time-sensitive notifications of activity within the system",
+        "source": "Phosphor Regular, bell"
     },
     "brand-facebook": {
         "tags": [
@@ -79,14 +88,16 @@
             "social",
             "meta"
         ],
-        "description": "Logo for Facebook"
+        "description": "Logo for Facebook",
+        "source": "Custom"
     },
     "brand-linkedin": {
         "tags": [
             "logo",
             "social"
         ],
-        "description": "Logo for LinkedIn"
+        "description": "Logo for LinkedIn",
+        "source": "Custom"
     },
     "brand-slack": {
         "tags": [
@@ -94,7 +105,8 @@
             "social",
             "support"
         ],
-        "description": "Logo for Slack"
+        "description": "Logo for Slack",
+        "source": "Custom"
     },
     "brand-twitter": {
         "tags": [
@@ -103,7 +115,8 @@
             "twitter",
             "x"
         ],
-        "description": "Logo for X, formerly known as Twitter"
+        "description": "Logo for X, formerly known as Twitter",
+        "source": "Custom"
     },
     "building": {
         "tags": [
@@ -111,7 +124,8 @@
             "company",
             "work"
         ],
-        "description": "Used to represent the parent company of a Justworks product instance; or an work location, as in work address, work email, or work phone"
+        "description": "Used to represent the parent company of a Justworks product instance; or an work location, as in work address, work email, or work phone",
+        "source": "Phosphor Regular, buildings" 
     },
     "bullet-outline": {
         "tags": [
@@ -119,7 +133,9 @@
             "bulleted",
             "list"
         ],
-        "description": "Third level of a bulleted list"
+        "description": "Third level of a bulleted list",
+        "source": "Custom"
+
     },
     "bullet-square": {
         "tags": [
@@ -127,7 +143,8 @@
             "bulleted",
             "list"
         ],
-        "description": "Second level of a bulleted list"
+        "description": "Second level of a bulleted list",
+        "source": "Custom"
     },
     "bullet": {
         "tags": [
@@ -135,7 +152,8 @@
             "bulleted",
             "list"
         ],
-        "description": "First level of a bulleted list"
+        "description": "First level of a bulleted list",
+        "source": "Custom"
     },
     "calendar": {
         "tags": [
@@ -143,7 +161,8 @@
             "datepicker",
             "date picker"
         ],
-        "description": "For opening a date picker"
+        "description": "For opening a date picker",
+        "source": "Phosphor Regular, calendar-blank"
     },
     "caret-down": {
         "tags": [
@@ -158,7 +177,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Toggles the visibility of something that will overlay the existing UI, and appear below the item that triggers it (space permitting)"
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear below the item that triggers it (space permitting)",
+        "source": "Phosphor Fill, caret-down, 50% scale"
     },
     "caret-left": {
         "tags": [
@@ -172,7 +192,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the left of the item that triggers it (space permitting)"
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the left of the item that triggers it (space permitting)",
+        "source": "Phosphor Fill, caret-left, 50% scale"
     },
     "caret-right": {
         "tags": [
@@ -186,7 +207,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the right of the item that triggers it (space permitting)"
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the right of the item that triggers it (space permitting)",
+        "source": "Phosphor Fill, caret-right, 50% scale"
     },
     "caret-up": {
         "tags": [
@@ -201,7 +223,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Toggles the visibility of something that will overlay the existing UI, and appear above the item that triggers it (space permitting)"
+        "description": "Toggles the visibility of something that will overlay the existing UI, and appear above the item that triggers it (space permitting)",
+        "source": "Phosphor Fill, caret-up, 50% scale"
     },
     "chat": {
         "tags": [
@@ -211,7 +234,8 @@
             "forethought",
             "support"
         ],
-        "description": "Send a chat or instant message to Customer Success"
+        "description": "Send a chat or instant message to Customer Success",
+        "source": "Phosphor Regular, chat-circle"
     },
     "check-all": {
         "tags": [
@@ -223,12 +247,14 @@
             "toggle",
             "choose"
         ],
-        "description": "Select all of the items that can be selected"
+        "description": "Select all of the items that can be selected",
+        "source": "Phosphor Regular, check-square"
     },
     "check-circle-inverted": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Fill, check-circle"
     },
     "check-circle": {
         "tags": [
@@ -240,7 +266,8 @@
             "good",
             "positive"
         ],
-        "description": "Inform the user that their intended action has taken place, as they expected"
+        "description": "Inform the user that their intended action has taken place, as they expected",
+        "source": "Phosphor Regular, check-circle"
     },
     "check-none": {
         "tags": [
@@ -253,14 +280,16 @@
             "toggle",
             "choose"
         ],
-        "description": "Select none of the items that can be selected"
+        "description": "Select none of the items that can be selected",
+        "source": "Phosphor Regular, x-square"
     },
     "check": {
         "tags": [
             "check",
             "approve"
         ],
-        "description": "Mark something as approved"
+        "description": "Mark something as approved",
+        "source": "Phosphor Regular, check"
     },
     "chevron-down": {
         "tags": [
@@ -274,7 +303,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Shows something that will insert itself into the flow of the existing UI, and appear below the item that triggers it"
+        "description": "Shows something that will insert itself into the flow of the existing UI, and appear below the item that triggers it",
+        "source": "Phosphor Regular, chevron-down"
     },
     "chevron-left": {
         "tags": [
@@ -287,7 +317,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Hides something that has inserted itself into the flow of the existing UI, to the right of this item"
+        "description": "Hides something that has inserted itself into the flow of the existing UI, to the right of this item",
+        "source": "Phosphor Regular, chevron-left"
     },
     "chevron-right": {
         "tags": [
@@ -300,7 +331,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Shows something that will insert itself into the flow of the existing UI, and appear to the right of the item that triggers it"
+        "description": "Shows something that will insert itself into the flow of the existing UI, and appear to the right of the item that triggers it",
+        "source": "Phosphor Regular, chevron-right"
     },
     "chevron-up": {
         "tags": [
@@ -313,7 +345,8 @@
             "visibility",
             "direction"
         ],
-        "description": "Hides something that has inserted itself into the flow of the existing UI, below this item"
+        "description": "Hides something that has inserted itself into the flow of the existing UI, below this item",
+        "source": "Phosphor Regular, chevron-up"
     },
     "clipboard": {
         "tags": [
@@ -321,7 +354,8 @@
             "HR",
             "human resources"
         ],
-        "description": "Used for the \"HR\" section of the main navigation"
+        "description": "Used for the \"HR\" section of the main navigation",
+        "source": "Phosphor Regular, clipboard"
     },
     "clock": {
         "tags": [
@@ -330,14 +364,16 @@
             "timepicker",
             "time picker"
         ],
-        "description": "Used to represent a time picker"
+        "description": "Used to represent a time picker",
+        "source": "Phosphor Regular, clock"
     },
     "close-circle": {
         "tags": [
             "clear",
             "empty"
         ],
-        "description": "Clear the current input"
+        "description": "Clear the current input",
+        "source": "Phosphor Regular, x-circle"
     },
     "close": {
         "tags": [
@@ -347,7 +383,8 @@
             "deny",
             "disapprove"
         ],
-        "description": "Close the current view; or deny or disapprove something (in contrast with <code>check</code>"
+        "description": "Close the current view; or deny or disapprove something (in contrast with <code>check</code>",
+        "source": "Phosphor Regular, x"
     },
     "copy": {
         "tags": [
@@ -356,12 +393,14 @@
             "cut",
             "paste"
         ],
-        "description": "An action that copies something to the clipboard"
+        "description": "An action that copies something to the clipboard",
+        "source": "Phosphor Regular, copy"
     },
     "credit-card": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, credit-card"
     },
     "cut": {
         "tags": [
@@ -370,7 +409,8 @@
             "copy",
             "paste"
         ],
-        "description": "An action that cuts out a selection, so it can be pasted it somewhere else"
+        "description": "An action that cuts out a selection, so it can be pasted it somewhere else",
+        "source": "Phosphor Regular, scissors"
     },
     "document-csv": {
         "tags": [
@@ -380,7 +420,8 @@
             "data",
             "spreadsheet"
         ],
-        "description": "A CSV document"
+        "description": "A CSV document",
+        "source": "Phosphor Regular, file-csv"
     },
     "document-pdf": {
         "tags": [
@@ -390,7 +431,8 @@
             "adobe",
             "acrobat"
         ],
-        "description": "A PDF document"
+        "description": "A PDF document",
+        "source": "Phosphor Regular, file-pdf"
     },
     "document-xls": {
         "tags": [
@@ -402,7 +444,8 @@
             "excel",
             "spreadsheet"
         ],
-        "description": "An Excel spreadsheet"
+        "description": "An Excel spreadsheet",
+        "source": "Phosphor Regular, file-xls"
     },
     "document-zip": {
         "tags": [
@@ -412,7 +455,8 @@
             "compressed",
             "zipped"
         ],
-        "description": "A ZIP file"
+        "description": "A ZIP file",
+        "source": "Phosphor Regular, file-zip"
     },
     "document": {
         "tags": [
@@ -421,7 +465,8 @@
             "page",
             "paper"
         ],
-        "description": "A file that doesn't have a more specific <code>document-*</code> icon that matches its type"
+        "description": "A file that doesn't have a more specific <code>document-*</code> icon that matches its type",
+        "source": "Phosphor Regular, file"
     },
     "dollar": {
         "tags": [
@@ -429,7 +474,8 @@
             "finance",
             "money"
         ],
-        "description": "Only use if you're sure that the context is US-only, otherwise use <code>money</code>"
+        "description": "Only use if you're sure that the context is US-only, otherwise use <code>money</code>",
+        "source": "Phosphor Regular, currency-dollar-simple"
     },
     "download": {
         "tags": [
@@ -438,7 +484,8 @@
             "download",
             "upload"
         ],
-        "description": "Download a copy of one or more files to the user's device. Opposite of <code>upload</code>"
+        "description": "Download a copy of one or more files to the user's device. Opposite of <code>upload</code>",
+        "source": "Phosphor Regular, download-simple"
     },
     "edit": {
         "tags": [
@@ -446,7 +493,8 @@
             "change",
             "update"
         ],
-        "description": "Change the state of an object within the application"
+        "description": "Change the state of an object within the application",
+        "source": "Phosphor Regular, pencil-simple"
     },
     "ellipsis": {
         "tags": [
@@ -457,7 +505,8 @@
             "see",
             "all"
         ],
-        "description": "For an overflow menu, when the full list of possible actions can't be displayed by default"
+        "description": "For an overflow menu, when the full list of possible actions can't be displayed by default",
+        "source": "Phosphor Regular, dots-three"
     },
     "error": {
         "tags": [
@@ -470,7 +519,8 @@
             "bad",
             "negative"
         ],
-        "description": "Inform the user that their intended action could not be completed, due to an error by them or by us"
+        "description": "Inform the user that their intended action could not be completed, due to an error by them or by us",
+        "source": "Phosphor Regular, warning-octagon"
     },
     "external-link": {
         "tags": [
@@ -481,7 +531,8 @@
             "a11y",
             "link"
         ],
-        "description": "Used to indicate that a URL will open in a new window or new tab; whether or not that URL is on the justworks.com domain"
+        "description": "Used to indicate that a URL will open in a new window or new tab; whether or not that URL is on the justworks.com domain",
+        "source": "Phosphor Regular, arrow-square-out"
     },
     "eye-slash": {
         "tags": [
@@ -492,7 +543,8 @@
             "security",
             "password"
         ],
-        "description": "Hide something that is currently showing, such as a password"
+        "description": "Hide something that is currently showing, such as a password",
+        "source": "Phosphor Regular, eye-closed"
     },
     "eye": {
         "tags": [
@@ -503,7 +555,8 @@
             "security",
             "password"
         ],
-        "description": "Show something that is currently hidden, such as a password"
+        "description": "Show something that is currently hidden, such as a password",
+        "source": "Phosphor Regular, eye"
     },
     "filter": {
         "tags": [
@@ -511,17 +564,20 @@
             "search",
             "options"
         ],
-        "description": "Narrow down a set of items to those that match specific criteria"
+        "description": "Narrow down a set of items to those that match specific criteria",
+        "source": "Phosphor Regular, funnel"
     },
     "folder-open": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, folder-open"
     },
     "folder": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, folder"
     },
     "fullscreen-close": {
         "tags": [
@@ -534,7 +590,8 @@
             "shrink",
             "less"
         ],
-        "description": "Shrink a view (that is currently taking up the entire viewport) to a smaller size"
+        "description": "Shrink a view (that is currently taking up the entire viewport) to a smaller size",
+        "source": "Phosphor Regular, arrows-in"
     },
     "fullscreen-open": {
         "tags": [
@@ -545,14 +602,16 @@
             "expand",
             "more"
         ],
-        "description": "Expand a view to take up the entire viewport"
+        "description": "Expand a view to take up the entire viewport",
+        "source": "Phosphor Regular, arrows-out"
     },
     "gear": {
         "tags": [
             "gear",
             "settings"
         ],
-        "description": "Settings or configuration options relating to the system, or the current context"
+        "description": "Settings or configuration options relating to the system, or the current context",
+        "source": "Phosphor Regular, gear"
     },
     "globe": {
         "tags": [
@@ -563,14 +622,16 @@
             "localization",
             "globalization"
         ],
-        "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format"
+        "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format",
+        "source": "Phosphor Regular, globe"
     },
     "heart": {
         "tags": [
             "benefits",
             "navigation"
         ],
-        "description": "Used for the \"Benefits\" section of the main navigation"
+        "description": "Used for the \"Benefits\" section of the main navigation",
+        "source": "Phosphor Regular, heart"
     },
     "help": {
         "tags": [
@@ -578,7 +639,8 @@
             "support",
             "question-circle"
         ],
-        "description": "Get help; contact Customer Success"
+        "description": "Get help; contact Customer Success",
+        "source": "Phosphor Regular, question"
     },
     "home": {
         "tags": [
@@ -586,7 +648,8 @@
             "homepage",
             "dashboard"
         ],
-        "description": "The initial or top-level summary view of an application"
+        "description": "The initial or top-level summary view of an application",
+        "source": "Phosphor Regular, house-line"
     },
     "id-card": {
         "tags": [
@@ -594,7 +657,8 @@
             "insurance",
             "card"
         ],
-        "description": "The card typically issued with a benefit that indicates the policy holder's name, any dependents, and their level of coverage"
+        "description": "The card typically issued with a benefit that indicates the policy holder's name, any dependents, and their level of coverage",
+        "source": "Phosphor Regular, identification-card"
     },
     "image": {
         "tags": [
@@ -602,7 +666,8 @@
             "image",
             "picture"
         ],
-        "description": "Generic representation of a photo, or other image"
+        "description": "Generic representation of a photo, or other image",
+        "source": "Phosphor Regular, image"
     },
     "info-circle": {
         "tags": [
@@ -610,7 +675,8 @@
             "tooltip",
             "fun fact"
         ],
-        "description": "Useful, but not vital, information"
+        "description": "Useful, but not vital, information",
+        "source": "Phosphor Regular, info"
     },
     "internal-controls": {
         "tags": [
@@ -619,7 +685,8 @@
             "admin"
         ],
         "description": "Settings and tools available only to Justworkers",
-        "isNew": true
+        "isNew": true,
+        "source": "Phosphor Regular, sliders"
     },
     "link": {
         "tags": [
@@ -627,17 +694,20 @@
             "resources",
             "url"
         ],
-        "description": "Used to represent a link in a list of resources (as compared to a PDF, video, etc.)"
+        "description": "Used to represent a link in a list of resources (as compared to a PDF, video, etc.)",
+        "source": "Phosphor Regular, link"
     },
     "list": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, list-bullets"
     },
     "lock-open": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, lock-key-open"
     },
     "lock": {
         "tags": [
@@ -646,7 +716,8 @@
             "authorization",
             "unauthorized"
         ],
-        "description": "Only available to authorized users"
+        "description": "Only available to authorized users",
+        "source": "Phosphor Regular, lock-key"
     },
     "logout": {
         "tags": [
@@ -655,7 +726,8 @@
             "sign out",
             "sign off"
         ],
-        "description": "Exit the system and clear authentication"
+        "description": "Exit the system and clear authentication",
+        "source": "Phosphor Regular, sign-out"
     },
     "mail": {
         "tags": [
@@ -663,14 +735,16 @@
             "address",
             "contact"
         ],
-        "description": "Email something"
+        "description": "Email something",
+        "source": "Phosphor Regular, envelope"
     },
     "menu": {
         "tags": [
             "menu",
             "navigation"
         ],
-        "description": "Click or tap to open the application-level navigation on smaller viewports"
+        "description": "Click or tap to open the application-level navigation on smaller viewports",
+        "source": "Phosphor Regular, list"
     },
     "message": {
         "tags": [
@@ -683,7 +757,8 @@
             "chat"
         ],
         "description": "Use <code>chat</code> instead",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, chat-circle-dots"
     },
     "minus-circle": {
         "tags": [
@@ -695,7 +770,8 @@
             "minus",
             "circle"
         ],
-        "description": "Used to break a connection or association between two objects"
+        "description": "Used to break a connection or association between two objects",
+        "source": "Phosphor Regular, minus-circle"
     },
     "minus": {
         "tags": [
@@ -704,7 +780,8 @@
             "decrease",
             "negative"
         ],
-        "description": "Used to negatively increment a value"
+        "description": "Used to negatively increment a value",
+        "source": "Phosphor Regular, minus"
     },
     "money": {
         "tags": [
@@ -712,7 +789,8 @@
             "finance",
             "money"
         ],
-        "description": "Represent financial or monetary transactions, especially when they can be in currencies that are not U.S. dollars"
+        "description": "Represent financial or monetary transactions, especially when they can be in currencies that are not U.S. dollars",
+        "source": "Phosphor Regular, money"
     },
     "paste": {
         "tags": [
@@ -721,7 +799,8 @@
             "cut",
             "paste"
         ],
-        "description": "An action that pastes something from the clipboard into the current context"
+        "description": "An action that pastes something from the clipboard into the current context",
+        "source": "Phosphor Regular, clipboard-text"
     },
     "paystub": {
         "tags": [
@@ -729,7 +808,8 @@
             "pay"
         ],
         "description": "Use <code>money</code> instead",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, money"
     },
     "person-manage": {
         "tags": [
@@ -739,7 +819,8 @@
             "reporting",
             "people"
         ],
-        "description": "Indicates a manager-employee relationship between two people"
+        "description": "Indicates a manager-employee relationship between two people",
+        "source": "Phosphor Regular, users"
     },
     "person-plus": {
         "tags": [
@@ -749,7 +830,8 @@
             "person",
             "people"
         ],
-        "description": "Add a person to the system, or associate a person with this object"
+        "description": "Add a person to the system, or associate a person with this object",
+        "source": "Phosphor Regular, user-plus"
     },
     "person-three": {
         "tags": [
@@ -759,7 +841,8 @@
             "team",
             "department"
         ],
-        "description": "A group of people that can be two or more (even if it may not always be), such as a department or benefits class"
+        "description": "A group of people that can be two or more (even if it may not always be), such as a department or benefits class",
+        "source": "Phosphor Regular, users-three"
     },
     "person": {
         "tags": [
@@ -769,7 +852,8 @@
             "people",
             "user"
         ],
-        "description": "Representing a single individual"
+        "description": "Representing a single individual",
+        "source": "Phosphor Regular, user"
     },
     "phone-mobile": {
         "tags": [
@@ -781,7 +865,8 @@
             "ios",
             "android"
         ],
-        "description": "Used to represent a phone number, when it's known to be associated with a mobile device"
+        "description": "Used to represent a phone number, when it's known to be associated with a mobile device",
+        "source": "Phosphor Regular, device-mobile"
     },
     "phone": {
         "tags": [
@@ -793,17 +878,20 @@
             "ios",
             "android"
         ],
-        "description": "Used to represent a phone number"
+        "description": "Used to represent a phone number",
+        "source": "Phosphor Regular, phone"
     },
     "pie-chart": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, chart-pie"
     },
     "pin": {
         "tags": [],
         "description": "",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, map-pin"
     },
     "play-circle": {
         "tags": [
@@ -815,7 +903,8 @@
             "vimeo",
             "embed"
         ],
-        "description": "Play a video"
+        "description": "Play a video",
+        "source": "Phosphor Regular, play-circle"
     },
     "plus-circle": {
         "tags": [
@@ -826,7 +915,8 @@
             "plus",
             "circle"
         ],
-        "description": "Used to create or make a connection or association between two objects"
+        "description": "Used to create or make a connection or association between two objects",
+        "source": "Phosphor Regular, plus-circle"
     },
     "plus": {
         "tags": [
@@ -835,7 +925,8 @@
             "increase",
             "positive"
         ],
-        "description": "Used to create an object in the system, or positively increment a value"
+        "description": "Used to create an object in the system, or positively increment a value",
+        "source": "Phosphor Regular, plus"
     },
     "print": {
         "tags": [
@@ -843,7 +934,8 @@
             "printer",
             "export"
         ],
-        "description": "Send data to the user's printer"
+        "description": "Send data to the user's printer",
+        "source": "Phosphor Regular, printer"
     },
     "question-circle": {
         "tags": [
@@ -851,7 +943,8 @@
             "support"
         ],
         "description": "Use <code>help</code> instead",
-        "isDeprecated": true
+        "isDeprecated": true,
+        "source": "Phosphor Regular, question"
     },
     "redo": {
         "tags": [
@@ -860,7 +953,8 @@
             "history",
             "actions"
         ],
-        "description": "Opposite of <code>undo</code>—move forward in the sequence of previous actions that have been taken"
+        "description": "Opposite of <code>undo</code>—move forward in the sequence of previous actions that have been taken",
+        "source": "Phosphor Regular, arrow-u-up-right"
     },
     "retry": {
         "tags": [
@@ -868,7 +962,8 @@
             "again",
             "repeat"
         ],
-        "description": "Execute a command one more time, especially when the last attempt failed"
+        "description": "Execute a command one more time, especially when the last attempt failed",
+        "source": "Phosphor Regular, arrow-clockwise"
     },
     "search": {
         "tags": [
@@ -878,7 +973,8 @@
             "find",
             "look"
         ],
-        "description": "Find matching objects within a list or the system, usually by typing in keywords"
+        "description": "Find matching objects within a list or the system, usually by typing in keywords",
+        "source": "Phosphor Regular, magnifying-glass"
     },
     "share": {
         "tags": [
@@ -887,7 +983,8 @@
             "social media",
             "post"
         ],
-        "description": "Send an item, or a link to it, to another user"
+        "description": "Send an item, or a link to it, to another user",
+        "source": "Phosphor Regular, export"
     },
     "slash-circle": {
         "tags": [
@@ -897,7 +994,8 @@
             "turn off",
             "toggle"
         ],
-        "description": "Disable something"
+        "description": "Disable something",
+        "source": "Phosphor Regular, prohibit"
     },
     "sort-asc": {
         "tags": [
@@ -908,7 +1006,8 @@
             "table",
             "list"
         ],
-        "description": "Sorted smallest to largest; A to Z, 0 to 9; first to last; oldest to newest; etc."
+        "description": "Sorted smallest to largest; A to Z, 0 to 9; first to last; oldest to newest; etc.",
+        "source": "Phosphor Fill, caret-up-down, 50% scale, down caret only"
     },
     "sort-desc": {
         "tags": [
@@ -919,7 +1018,8 @@
             "table",
             "list"
         ],
-        "description": "Sorted largest to smallest; Z to A, 9 to 0; last to first; newest to oldest; etc."
+        "description": "Sorted largest to smallest; Z to A, 9 to 0; last to first; newest to oldest; etc.",
+        "source": "Phosphor Fill, caret-up-down, 50% scale, top caret only"
     },
     "sort": {
         "tags": [
@@ -929,7 +1029,8 @@
             "table",
             "list"
         ],
-        "description": "Indicates that the current view can be sorted by the associated attribute, but currently is not"
+        "description": "Indicates that the current view can be sorted by the associated attribute, but currently is not",
+        "source": "Phosphor Fill, caret-up-down, 50% scale"
     },
     "sync": {
         "tags": [
@@ -937,7 +1038,8 @@
             "update",
             "send"
         ],
-        "description": "Communicate between two systems so that the relevant data in each is equivalent"
+        "description": "Communicate between two systems so that the relevant data in each is equivalent",
+        "source": "Phosphor Regular, arrows-clockwise"
     },
     "trash": {
         "tags": [
@@ -947,7 +1049,8 @@
             "can",
             "oscar"
         ],
-        "description": "Delete something from the system or from this context, permanently"
+        "description": "Delete something from the system or from this context, permanently",
+        "source": "Phosphor Regular, trash"
     },
     "undo": {
         "tags": [
@@ -956,7 +1059,8 @@
             "history",
             "actions"
         ],
-        "description": "Go backward in the sequence of previous actions that have been taken. Opposite of <code>redo</code>"
+        "description": "Go backward in the sequence of previous actions that have been taken. Opposite of <code>redo</code>",
+        "source": "Phosphor Regular, arrow-u-up-left"
     },
     "upload": {
         "tags": [
@@ -965,7 +1069,8 @@
             "download",
             "upload"
         ],
-        "description": "Upload a copy of one or more files from the user's device. Opposite of <code>download</code>"
+        "description": "Upload a copy of one or more files from the user's device. Opposite of <code>download</code>",
+        "source": "Phosphor Regular, upload-simple"
     },
     "warning": {
         "tags": [
@@ -975,7 +1080,8 @@
             "error",
             "mistake"
         ],
-        "description": "When we can't be sure that something is an error in invalid, but we think it might be"
+        "description": "When we can't be sure that something is an error in invalid, but we think it might be",
+        "source": "Phosphor Regular, warning"
     },
     "whats-new": {
         "tags": [
@@ -985,7 +1091,8 @@
             "exciting",
             "magic"
         ],
-        "description": "Highlight a new feature or suggestion within the system"
+        "description": "Highlight a new feature or suggestion within the system",
+        "source": "Phosphor Regular, sparkle"
     },
     "zap": {
         "tags": [
@@ -993,6 +1100,7 @@
             "quick",
             "shortcut"
         ],
-        "description": "Used on timecards to autofill 8 hours a day, Monday through Friday"
+        "description": "Used on timecards to autofill 8 hours a day, Monday through Friday",
+        "source": "Phosphor Regular, lightning"
     }
 }
