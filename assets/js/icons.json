@@ -5,7 +5,7 @@
             "down",
             "navigation",
             "list",
-            "directional"
+            "direction"
         ],
         "description": "Move down"
     },
@@ -146,27 +146,83 @@
         "description": "For opening a date picker"
     },
     "caret-down": {
-        "tags": ["caret", "down", "below", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "tags": [
+            "caret",
+            "down",
+            "below",
+            "open",
+            "overlay",
+            "popover",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Toggles the visibility of something that will overlay the existing UI, and appear below the item that triggers it (space permitting)"
     },
     "caret-left": {
-        "tags": ["caret", "left", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "tags": [
+            "caret",
+            "left",
+            "open",
+            "overlay",
+            "popover",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the left of the item that triggers it (space permitting)"
     },
     "caret-right": {
-        "tags": ["caret", "right", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "tags": [
+            "caret",
+            "right",
+            "open",
+            "overlay",
+            "popover",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Toggles the visibility of something that will overlay the existing UI, and appear to the right of the item that triggers it (space permitting)"
     },
     "caret-up": {
-        "tags": ["caret", "up", "above", "open", "overlay", "popover", "show", "toggle", "visibility"],
+        "tags": [
+            "caret",
+            "up",
+            "above",
+            "open",
+            "overlay",
+            "popover",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Toggles the visibility of something that will overlay the existing UI, and appear above the item that triggers it (space permitting)"
     },
     "chat": {
-        "tags": ["contact", "message", "chatbot", "forethought", "support"],
+        "tags": [
+            "contact",
+            "message",
+            "chatbot",
+            "forethought",
+            "support"
+        ],
         "description": "Send a chat or instant message to Customer Success"
     },
     "check-all": {
-        "tags": ["clear", "select", "checkbox", "checkboxes", "all", "toggle", "choose"],
+        "tags": [
+            "clear",
+            "select",
+            "checkbox",
+            "checkboxes",
+            "all",
+            "toggle",
+            "choose"
+        ],
         "description": "Select all of the items that can be selected"
     },
     "check-circle-inverted": {
@@ -175,52 +231,122 @@
         "isDeprecated": true
     },
     "check-circle": {
-        "tags": ["notification", "notifications", "alert", "alerts", "success", "good", "positive"],
+        "tags": [
+            "notification",
+            "notifications",
+            "alert",
+            "alerts",
+            "success",
+            "good",
+            "positive"
+        ],
         "description": "Inform the user that their intended action has taken place, as they expected"
     },
     "check-none": {
-        "tags": ["clear", "select", "unselect", "deselect", "checkboxes", "none", "toggle", "choose"],
+        "tags": [
+            "clear",
+            "select",
+            "unselect",
+            "deselect",
+            "checkboxes",
+            "none",
+            "toggle",
+            "choose"
+        ],
         "description": "Select none of the items that can be selected"
     },
     "check": {
-        "tags": ["check", "approve"],
+        "tags": [
+            "check",
+            "approve"
+        ],
         "description": "Mark something as approved"
     },
     "chevron-down": {
-        "tags": ["chevron", "down", "below", "open", "expand", "show", "toggle", "visibility"],
+        "tags": [
+            "chevron",
+            "down",
+            "below",
+            "open",
+            "expand",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Shows something that will insert itself into the flow of the existing UI, and appear below the item that triggers it"
     },
     "chevron-left": {
-        "tags": ["chevron", "left", "close", "collapse", "hide", "toggle", "visibility"],
+        "tags": [
+            "chevron",
+            "left",
+            "close",
+            "collapse",
+            "hide",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Hides something that has inserted itself into the flow of the existing UI, to the right of this item"
     },
     "chevron-right": {
-        "tags": ["chevron", "right", "open", "expand", "show", "toggle", "visibility"],
+        "tags": [
+            "chevron",
+            "right",
+            "open",
+            "expand",
+            "show",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Shows something that will insert itself into the flow of the existing UI, and appear to the right of the item that triggers it"
     },
     "chevron-up": {
-        "tags": ["chevron", "up", "close", "collapse", "hide", "toggle", "visibility"],
+        "tags": [
+            "chevron",
+            "up",
+            "close",
+            "collapse",
+            "hide",
+            "toggle",
+            "visibility",
+            "direction"
+        ],
         "description": "Hides something that has inserted itself into the flow of the existing UI, below this item"
     },
     "clipboard": {
-        "tags": ["navigation", "HR", "human resources"],
+        "tags": [
+            "navigation",
+            "HR",
+            "human resources"
+        ],
         "description": "Used for the \"HR\" section of the main navigation"
     },
     "clock": {
         "tags": [
             "time",
-            "hours", 
+            "hours",
             "timepicker",
             "time picker"
         ],
         "description": "Used to represent a time picker"
     },
     "close-circle": {
-        "tags": ["clear", "empty"],
+        "tags": [
+            "clear",
+            "empty"
+        ],
         "description": "Clear the current input"
     },
     "close": {
-        "tags": ["x", "close", "exit", "deny", "disapprove"],
+        "tags": [
+            "x",
+            "close",
+            "exit",
+            "deny",
+            "disapprove"
+        ],
         "description": "Close the current view; or deny or disapprove something (in contrast with <code>check</code>"
     },
     "copy": {
@@ -334,9 +460,17 @@
         "description": "For an overflow menu, when the full list of possible actions can't be displayed by default"
     },
     "error": {
-        "tags": ["notification", "notifications", "alert", "alerts", "error", "invalid", "bad", "negative"],
+        "tags": [
+            "notification",
+            "notifications",
+            "alert",
+            "alerts",
+            "error",
+            "invalid",
+            "bad",
+            "negative"
+        ],
         "description": "Inform the user that their intended action could not be completed, due to an error by them or by us"
-
     },
     "external-link": {
         "tags": [
@@ -432,7 +566,10 @@
         "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format"
     },
     "heart": {
-        "tags": ["benefits", "navigation"],
+        "tags": [
+            "benefits",
+            "navigation"
+        ],
         "description": "Used for the \"Benefits\" section of the main navigation"
     },
     "help": {
@@ -547,11 +684,24 @@
         "isDeprecated": true
     },
     "minus-circle": {
-        "tags": ["remove", "unlink", "delete", "clear", "disconnect", "minus", "circle"],
+        "tags": [
+            "remove",
+            "unlink",
+            "delete",
+            "clear",
+            "disconnect",
+            "minus",
+            "circle"
+        ],
         "description": "Used to break a connection or association between two objects"
     },
     "minus": {
-        "tags": ["subtract", "minus", "decrease", "negative"],
+        "tags": [
+            "subtract",
+            "minus",
+            "decrease",
+            "negative"
+        ],
         "description": "Used to negatively increment a value"
     },
     "money": {
@@ -572,32 +722,75 @@
         "description": "An action that pastes something from the clipboard into the current context"
     },
     "paystub": {
-        "tags": ["money", "pay"],
+        "tags": [
+            "money",
+            "pay"
+        ],
         "description": "Use <code>money</code> instead",
         "isDeprecated": true
     },
     "person-manage": {
-        "tags": ["person", "manager", "reports", "reporting", "people"],
+        "tags": [
+            "person",
+            "manager",
+            "reports",
+            "reporting",
+            "people"
+        ],
         "description": "Indicates a manager-employee relationship between two people"
     },
     "person-plus": {
-        "tags": ["plus", "add", "create", "person", "people"],
+        "tags": [
+            "plus",
+            "add",
+            "create",
+            "person",
+            "people"
+        ],
         "description": "Add a person to the system, or associate a person with this object"
     },
     "person-three": {
-        "tags": ["people", "person", "group", "team", "department"],
+        "tags": [
+            "people",
+            "person",
+            "group",
+            "team",
+            "department"
+        ],
         "description": "A group of people that can be two or more (even if it may not always be), such as a department or benefits class"
     },
     "person": {
-        "tags": ["person", "single", "one", "people", "user"],
+        "tags": [
+            "person",
+            "single",
+            "one",
+            "people",
+            "user"
+        ],
         "description": "Representing a single individual"
     },
     "phone-mobile": {
-        "tags": ["telephone", "tel", "cell", "cellular", "iphone", "ios", "android"],
+        "tags": [
+            "telephone",
+            "tel",
+            "cell",
+            "cellular",
+            "iphone",
+            "ios",
+            "android"
+        ],
         "description": "Used to represent a phone number, when it's known to be associated with a mobile device"
     },
     "phone": {
-        "tags": ["telephone", "tel", "cell", "cellular", "iphone", "ios", "android"],
+        "tags": [
+            "telephone",
+            "tel",
+            "cell",
+            "cellular",
+            "iphone",
+            "ios",
+            "android"
+        ],
         "description": "Used to represent a phone number"
     },
     "pie-chart": {
@@ -611,19 +804,43 @@
         "isDeprecated": true
     },
     "play-circle": {
-        "tags": ["play", "circle", "video", "media", "youtube", "vimeo", "embed"],
+        "tags": [
+            "play",
+            "circle",
+            "video",
+            "media",
+            "youtube",
+            "vimeo",
+            "embed"
+        ],
         "description": "Play a video"
     },
     "plus-circle": {
-        "tags": ["add", "link", "create", "connect", "plus", "circle"],
+        "tags": [
+            "add",
+            "link",
+            "create",
+            "connect",
+            "plus",
+            "circle"
+        ],
         "description": "Used to create or make a connection or association between two objects"
     },
     "plus": {
-        "tags": ["add", "plus", "increase", "positive"],
+        "tags": [
+            "add",
+            "plus",
+            "increase",
+            "positive"
+        ],
         "description": "Used to create an object in the system, or positively increment a value"
     },
     "print": {
-        "tags": ["print", "printer", "export"],
+        "tags": [
+            "print",
+            "printer",
+            "export"
+        ],
         "description": "Send data to the user's printer"
     },
     "question-circle": {
@@ -635,23 +852,49 @@
         "isDeprecated": true
     },
     "redo": {
-        "tags": ["redo", "undo", "history", "actions"],
+        "tags": [
+            "redo",
+            "undo",
+            "history",
+            "actions"
+        ],
         "description": "Opposite of <code>undo</code>—move forward in the sequence of previous actions that have been taken"
     },
     "retry": {
-        "tags": ["retry", "again", "repeat"],
+        "tags": [
+            "retry",
+            "again",
+            "repeat"
+        ],
         "description": "Execute a command one more time, especially when the last attempt failed"
     },
     "search": {
-        "tags": ["search", "magnifying glass", "magnifier", "find", "look"],
+        "tags": [
+            "search",
+            "magnifying glass",
+            "magnifier",
+            "find",
+            "look"
+        ],
         "description": "Find matching objects within a list or the system, usually by typing in keywords"
     },
     "share": {
-        "tags": ["share", "send", "social media", "post"],
+        "tags": [
+            "share",
+            "send",
+            "social media",
+            "post"
+        ],
         "description": "Send an item, or a link to it, to another user"
     },
     "slash-circle": {
-        "tags": ["disable", "disabled", "off", "turn off", "toggle"],
+        "tags": [
+            "disable",
+            "disabled",
+            "off",
+            "turn off",
+            "toggle"
+        ],
         "description": "Disable something"
     },
     "sort-asc": {
@@ -687,17 +930,31 @@
         "description": "Indicates that the current view can be sorted by the associated attribute, but currently is not"
     },
     "sync": {
-        "tags": ["sync", "update", "send"],
+        "tags": [
+            "sync",
+            "update",
+            "send"
+        ],
         "description": "Communicate between two systems so that the relevant data in each is equivalent"
     },
     "trash": {
-        "tags": ["remove", "delete", "garbage", "can", "oscar"],
+        "tags": [
+            "remove",
+            "delete",
+            "garbage",
+            "can",
+            "oscar"
+        ],
         "description": "Delete something from the system or from this context, permanently"
     },
     "undo": {
-        "tags": ["undo", "redo", "history", "actions"],
+        "tags": [
+            "undo",
+            "redo",
+            "history",
+            "actions"
+        ],
         "description": "Go backward in the sequence of previous actions that have been taken. Opposite of <code>redo</code>"
-
     },
     "upload": {
         "tags": [
@@ -709,15 +966,31 @@
         "description": "Upload a copy of one or more files from the user's device. Opposite of <code>download</code>"
     },
     "warning": {
-        "tags": ["warning", "watch", "oops", "error", "mistake"],
+        "tags": [
+            "warning",
+            "watch",
+            "oops",
+            "error",
+            "mistake"
+        ],
         "description": "When we can't be sure that something is an error in invalid, but we think it might be"
     },
     "whats-new": {
-        "tags": ["new", "sparkles", "ai", "exciting", "magic"],
+        "tags": [
+            "new",
+            "sparkles",
+            "ai",
+            "exciting",
+            "magic"
+        ],
         "description": "Highlight a new feature or suggestion within the system"
     },
     "zap": {
-        "tags": ["autofill", "quick", "shortcut"],
+        "tags": [
+            "autofill",
+            "quick",
+            "shortcut"
+        ],
         "description": "Used on timecards to autofill 8 hours a day, Monday through Friday"
     }
 }
