@@ -225,7 +225,7 @@
                 populateGallery();
             }
         }
-        }, 250));
+    }, 250));
 
     deprecatedToggle.addEventListener('click', function(e) {
         const currentState = this.getAttribute('aria-checked') === 'true';

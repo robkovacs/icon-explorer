@@ -574,6 +574,8 @@
     },
     "help": {
         "tags": [
+            "help",
+            "support",
             "question-circle"
         ],
         "description": "Get help; contact Customer Success"
