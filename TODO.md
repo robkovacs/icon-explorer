@@ -1,6 +1,7 @@
 ## Must
 * Turn the inspector into a modal window (😱) on smaller viewports
-* Fix sorting of icons (again) — one-word icons come first, but the rest are backwards
+* Fix sorting of icons (again...): one-word icons come first, but the rest are backwards
+* The logo icons aren't _actually_ custom—think of a better way to describe their source
 
 ## Should
 * Add a clear button to the search field, when the value is not blank
