@@ -218,9 +218,7 @@
     input.addEventListener('keyup', debounce(function(e) {
         if (this.value !== currentQuery) {
             const toggleState = deprecatedToggle.getAttribute('aria-checked') === 'true'
-            if (this.value) {
-                currentQuery = this.value;
-            }
+            currentQuery = this.value;
             filterIcons(this.value, toggleState);
         }
     }, 250));
