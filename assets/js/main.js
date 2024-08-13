@@ -97,7 +97,7 @@
             query = input.value;
         }
 
-        const regex = new RegExp('\\b(' + escapeRegex(query.toLowerCase().trim()) + ')\\b');
+        const regex = new RegExp(escapeRegex(query.toLowerCase().trim()));
         
         for (var key in icons) {
             let iconName = key;
