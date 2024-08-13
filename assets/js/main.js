@@ -2,6 +2,7 @@
     let icons;
     const input = document.querySelector("input");
     const deprecatedToggle = document.querySelector("#toggle-deprecated");
+    const clearSearch = document.querySelector("#clear-search-input");
     let currentQuery = input.value;
 
     async function getIcons() {
@@ -250,7 +251,13 @@
                 currentQuery = this.value;
                 filterIcons(this.value, toggleState);
             }
-        }, 250)
+
+            if (this.value) {
+                clearSearch.style.display = "block";
+            } else {
+                clearSearch.style.display = "none";
+            }
+        }, 100)
     );
 
     deprecatedToggle.addEventListener("click", function (e) {
@@ -260,11 +267,20 @@
         filterIcons(input.value, !currentState);
     });
 
+    clearSearch.addEventListener("click", function (e) {
+        input.value = "";
+        const toggleState =
+        deprecatedToggle.getAttribute("aria-checked") === "true";
+        filterIcons("", toggleState);
+    });
+    
     getIcons();
 
     if (currentQuery) {
         filterIcons(currentQuery);
+        clearSearch.style.display = "block";
     } else {
         populateGallery();
+        clearSearch.style.display = "none";
     }
 })();
