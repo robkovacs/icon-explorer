@@ -2,8 +2,7 @@
     let icons;
     const input = document.querySelector("input");
     const deprecatedToggle = document.querySelector("#toggle-deprecated");
-    let lastQuery = input.value;
-    
+    let currentQuery = input.value;
 
     async function getIcons() {
         const response = await fetch('assets/js/icons.json');
@@ -206,14 +205,7 @@
         return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
 
-    getIcons();
-    populateGallery();
-
-    if (input.value) {
-        filterIcons(input.value);
-    }
-
-    const debounce = (func, delay) => {
+    function debounce(func, delay) {
         let debounceTimer;
         return function () {
             const context = this;
@@ -224,11 +216,11 @@
     }
 
     input.addEventListener('keyup', debounce(function(e) {
-        if (this.value !== lastQuery) {
+        if (this.value !== currentQuery) {
             if (this.value) {
                 const toggleState = deprecatedToggle.getAttribute('aria-checked') === 'true'
                 filterIcons(this.value, toggleState);
-                lastQuery = this.value;
+                currentQuery = this.value;
             } else {
                 populateGallery();
             }
@@ -241,4 +233,12 @@
         this.setAttribute('aria-checked', newState);
         filterIcons(input.value, !currentState);
     });
+
+    getIcons();
+
+    if (currentQuery) {
+        filterIcons(currentQuery);
+    } else {
+        populateGallery();
+    }
 })();
