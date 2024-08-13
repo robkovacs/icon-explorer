@@ -234,14 +234,14 @@
     input.addEventListener(
         "keyup",
         debounce(function (e) {
-            if (this.value !== currentQuery) {
+            if (this.value.trim() !== currentQuery) {
                 const toggleState =
                     deprecatedToggle.getAttribute("aria-checked") === "true";
                 currentQuery = this.value;
                 filterIcons(this.value, toggleState);
             }
 
-            if (this.value) {
+            if (this.value.trim()) {
                 clearSearch.style.display = "block";
             } else {
                 clearSearch.style.display = "none";
@@ -267,7 +267,7 @@
 
     getIcons();
 
-    if (currentQuery) {
+    if (currentQuery.trim()) {
         filterIcons(currentQuery);
         clearSearch.style.display = "block";
     } else {
