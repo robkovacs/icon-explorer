@@ -97,7 +97,7 @@
             query = input.value;
         }
 
-        const regex = new RegExp(escapeRegex(query.toLowerCase().trim()));
+        const regex = new RegExp('\\b(' + escapeRegex(query.toLowerCase().trim()) + ')\\b');
         
         for (var key in icons) {
             let iconName = key;
@@ -108,19 +108,19 @@
                 continue;
             }
 
-            if (iconName.search(regex) !== -1) {
+            if (iconName.toLowerCase().search(regex) !== -1) {
                matchingIcons[key] = icons[key];
                continue;
             }
 
             for (var i = 0; i < iconTags.length; i++) {
-                if (iconTags[i].search(regex) !== -1) {
+                if (iconTags[i].toLowerCase().search(regex) !== -1) {
                     matchingIcons[key] = icons[key];
                     continue;
                 }     
             }
 
-            if (iconDescription.search(regex) !== -1) {
+            if (iconDescription.toLowerCase().search(regex) !== -1) {
                 matchingIcons[key] = icons[key];
                 continue;
             }
