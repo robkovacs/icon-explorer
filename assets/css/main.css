@@ -10,11 +10,14 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    border-radius: 0.25rem;
+}
+
 a:link, a:visited {
     color: #0070d4;
     text-decoration: none;
 }
-
 
 a:hover, a:hover:visited {
     color: #0E57B5;
@@ -30,6 +33,11 @@ a:hover:active {
     color: #1E3D92;
 }
 
+a:focus-visible, input:focus-visible, button:focus-visible {
+  outline-offset: 0.125rem;
+  outline: #0092F6 solid 0.125rem;
+  box-shadow: 0 0 0 0.125rem #fff;
+}
 
 /* Intro */
 
@@ -59,11 +67,15 @@ h1 {
     font-size: 1rem;
     line-height: 1.25rem;
     border-radius: 0.25rem;
-    border: 1px solid #848890;
+    border: 0.0625rem solid #848890;
     width: 100%;
     max-width: 24rem;
     height: 3rem;
     position: relative;
+}
+
+#search-input input:hover {
+    border-color: #6D717A;
 }
 
 #search-input::before {
@@ -95,6 +107,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    border-radius: 0.25rem;
 }
 
 #toggle-deprecated:hover,
@@ -128,7 +141,7 @@ h1 {
 }
 
 #toggle-deprecated[aria-checked="true"] > svg .toggle-switch {
-    cx: 22px;
+    cx: 1.375rem;
 }
 
 #toggle-deprecated[aria-checked="true"] > svg .toggle-frame {
@@ -198,8 +211,9 @@ figure {
     line-height: inherit;
     color: inherit;
     background-color: #fff;
-    border: 1px solid #d9dce1;
+    border: 0.0625rem solid #d9dce1;
     border-radius: 0.25rem;
+    margin: 0.0625rem;
 }
 
 #gallery button:hover {
@@ -211,8 +225,7 @@ figure {
 }
 
 #gallery .current {
-    border: 1px solid #0070d4;
-    box-shadow: inset 1px 1px 0 #0070d4, inset -1px -1px 0 #0070d4;
+    border: 0.125rem solid #0070d4;
     background-color: #e5f3ff;
 }
 
@@ -336,8 +349,8 @@ code {
     text-align: center;
     font-size: 0.75rem;
     line-height: 1rem;
-    border: 1px solid #848890;
-    border-radius: 9999px;
+    border: 0.0625rem solid #848890;
+    border-radius: 9999rem;
     padding: 0.25rem 0.5rem;
     background-color: transparent;
     display: inline-block;
