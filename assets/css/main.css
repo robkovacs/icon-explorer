@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oately';
+    font-family: "Oately";
     margin: 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -46,7 +46,7 @@ h1 {
 }
 
 #search-input::before {
-    content: '';
+    content: "";
     z-index: 1;
     background-image: url(../img/icons/search.svg);
     background-position: center;
@@ -81,19 +81,18 @@ h1 {
     background-color: transparent;
 }
 
-#toggle-deprecated>svg .toggle-frame,
-#toggle-deprecated>svg .toggle-switch {
+#toggle-deprecated > svg .toggle-frame,
+#toggle-deprecated > svg .toggle-switch {
     transition: all 150ms ease-out;
 }
 
-#toggle-deprecated[aria-checked="true"]>svg .toggle-switch {
+#toggle-deprecated[aria-checked="true"] > svg .toggle-switch {
     cx: 22px;
 }
 
-#toggle-deprecated[aria-checked="true"]>svg .toggle-frame {
+#toggle-deprecated[aria-checked="true"] > svg .toggle-frame {
     fill: #0070d4;
 }
-
 
 #icon-count {
     color: #5e6167;
@@ -136,7 +135,7 @@ figure {
     margin: 0;
 }
 
-.icon-preview>svg {
+.icon-preview > svg {
     height: 1.5rem;
     width: 1.5rem;
     display: block;
@@ -150,7 +149,7 @@ figure {
     line-height: inherit;
     color: inherit;
     background-color: #fff;
-    border: 1px solid #D9DCE1;
+    border: 1px solid #d9dce1;
     border-radius: 0.25rem;
 }
 
@@ -163,17 +162,17 @@ figure {
 }
 
 #gallery .current {
-    border: 1px solid #0070D4;
-    box-shadow: inset 1px 1px 0 #0070D4, inset -1px -1px 0 #0070D4;
-    background-color: #E5F3FF;
+    border: 1px solid #0070d4;
+    box-shadow: inset 1px 1px 0 #0070d4, inset -1px -1px 0 #0070d4;
+    background-color: #e5f3ff;
 }
 
 #gallery .current:hover {
-    background-color: #B6E5FF;
+    background-color: #b6e5ff;
 }
 
 #gallery .current:active {
-    background-color: #6DC8FF;
+    background-color: #6dc8ff;
 }
 
 .icon-summary {
@@ -195,18 +194,18 @@ figure {
 }
 
 .deprecated-dot {
-    background-color: #f3B715;
+    background-color: #f3b715;
 }
 
 .new-dot {
-    background-color: #65C9A3;
+    background-color: #65c9a3;
 }
 
 .icon-summary .icon-preview {
     margin-bottom: 0.5rem;
 }
 
-.icon-summary .icon-preview>svg {
+.icon-summary .icon-preview > svg {
     margin: 0 auto;
 }
 
@@ -223,7 +222,6 @@ figure {
 #inspector button:active {
     background-color: #eef0f4;
 }
-
 
 .icon-detail .icon-preview {
     text-align: left;
@@ -251,12 +249,12 @@ figure {
 }
 
 .deprecated-badge {
-    background-color: #FFEED1;
-    color: #AD5E0D;
+    background-color: #ffeed1;
+    color: #ad5e0d;
 }
 
 .new-badge {
-    background-color: #DDF3EA;
+    background-color: #ddf3ea;
     color: #008354;
 }
 
@@ -267,7 +265,7 @@ figure {
 code {
     display: inline-block;
     padding: 0.25rem;
-    background-color: #D9DCE1;
+    background-color: #d9dce1;
     border-radius: 0.25rem;
     font-size: 0.75rem;
     line-height: 1rem;
@@ -297,10 +295,16 @@ code {
     white-space: nowrap;
 }
 
-.icon-detail>figure:last-child,
-.icon-detail>ul:last-child,
-.icon-detail>p {
+.icon-detail > figure:last-child,
+.icon-detail > ul:last-child,
+.icon-detail > p:last-child {
     margin-bottom: 0;
+}
+
+small {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 
 .empty-state {

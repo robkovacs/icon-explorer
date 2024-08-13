@@ -58,6 +58,7 @@
             let iconName = key;
             let iconTags = data[key].tags;
             let iconDescription = data[key].description;
+            let iconSource = data[key].source;
             let isDeprecated = data[key].isDeprecated;
             let isNew = data[key].isNew;
 
@@ -76,6 +77,7 @@
                     iconName,
                     iconTags,
                     iconDescription,
+                    iconSource,
                     isDeprecated,
                     isNew
                 );
@@ -140,7 +142,7 @@
         populateGallery(matchingIcons);
     }
 
-    function showIconDetails(name, tags, description, isDeprecated, isNew) {
+    function showIconDetails(name, tags, description, source, isDeprecated, isNew) {
         const inspector = document.querySelector("#inspector");
 
         const iconDetailTemplate = document.querySelector(
@@ -153,6 +155,7 @@
         let figcaption = iconDetail.querySelector("figcaption");
         let ul = iconDetail.querySelector("ul");
         let p = iconDetail.querySelector("p");
+        let small = iconDetail.querySelector("small > span");
 
         fetch("assets/img/icons/" + name + ".svg")
             .then((response) => response.text())
@@ -191,6 +194,12 @@
             p.innerHTML = description;
         } else {
             container.removeChild(p);
+        }
+
+        if (source) {
+            small.textContent = source;
+        } else {
+            container.removeChild(small);
         }
 
         while (inspector.childNodes.length > 0) {
