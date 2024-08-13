@@ -155,7 +155,7 @@
         let figcaption = iconDetail.querySelector("figcaption");
         let ul = iconDetail.querySelector("ul");
         let p = iconDetail.querySelector("p");
-        let small = iconDetail.querySelector("small > span");
+        let small = iconDetail.querySelector("small");
 
         fetch("assets/img/icons/" + name + ".svg")
             .then((response) => response.text())
@@ -197,7 +197,7 @@
         }
 
         if (source) {
-            small.textContent = source;
+            small.firstChild.nextSibling.textContent = source;
         } else {
             container.removeChild(small);
         }
