@@ -37,7 +37,7 @@
 
         // Sort the JSON alphabetically by key name, just in case it's out of order
         data = Object.keys(data)
-            .sort(sortIcons)
+            .sort()
             .reduce((obj, key) => {
                 obj[key] = data[key];
                 return obj;
@@ -215,29 +215,6 @@
         }
 
         inspector.appendChild(iconDetail);
-    }
-
-    function sortIcons(a, b) {
-        a = a.split("-");
-        b = b.split("-");
-
-        for (let i = 0; i < Math.min(a.length, b.length); i++) {
-            if (a[i] > b[i]) {
-                return 1;
-            } else if (a[i] < b[i]) {
-                return -1;
-            } else {
-                if (a.length > b.length) {
-                    return 1;
-                } else {
-                    if (a[i] > b[i]) {
-                        return 1;
-                    } else if (a[i] < b[i]) {
-                        return -1;
-                    } 
-                }
-            }
-        }
     }
 
     function escapeRegex(string) {
