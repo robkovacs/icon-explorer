@@ -51,7 +51,7 @@
             document.querySelector('#icon-count').textContent = countText;
         }
 
-        for (var key in data) {
+        for (let key in data) {
             let iconName = key;
             let iconTags = data[key].tags;
             let iconDescription = data[key].description;
@@ -99,7 +99,7 @@
 
         const regex = new RegExp(escapeRegex(query.toLowerCase().trim()));
         
-        for (var key in icons) {
+        for (let key in icons) {
             let iconName = key;
             let iconTags = icons[key].tags;
             let iconDescription = icons[key].description;
@@ -113,7 +113,7 @@
                continue;
             }
 
-            for (var i = 0; i < iconTags.length; i++) {
+            for (let i = 0; i < iconTags.length; i++) {
                 if (iconTags[i].toLowerCase().search(regex) !== -1) {
                     matchingIcons[key] = icons[key];
                     continue;
@@ -155,7 +155,7 @@
 
         if (tags.length > 0) {
             const iconTagTemplate = document.querySelector("#icon-tag-template");
-            for (var i in tags) {
+            for (let i in tags) {
                 let iconTag = iconTagTemplate.content.cloneNode(true);
                 let button = iconTag.querySelector('button');
                 let tagName = tags[i];
@@ -184,20 +184,20 @@
     };
 
     function sortIcons(a, b) {
-        // TODO: close... the simpler ones come at the end though
         a = a.split("-"), b = b.split("-");
 
-        for (let i = 0; i < a.length; i++) {
-            if (i+1 > b.length) {
-                return 1;
-            }
-
+        for (let i = 0; i <= Math.min(a.length, b.length); i++) {
             if (a[i] > b[i]) {
                 return 1;
             } else if (a[i] < b[i]) {
                 return -1;
+            } else {
+                if (a.length > b.length) {
+                    return 1;
+                } else {
+                    return -1;
+                }
             }
-            return 0;
         }
     }
 
