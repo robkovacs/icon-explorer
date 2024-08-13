@@ -140,7 +140,8 @@
     "calendar": {
         "tags": [
             "date",
-            "datepicker"
+            "datepicker",
+            "date picker"
         ],
         "description": "For opening a date picker"
     },
@@ -166,7 +167,7 @@
     },
     "check-all": {
         "tags": ["clear", "select", "checkbox", "checkboxes", "all", "toggle", "choose"],
-        "description": "Select all of the items that can be selected."
+        "description": "Select all of the items that can be selected"
     },
     "check-circle-inverted": {
         "tags": [],
@@ -175,11 +176,11 @@
     },
     "check-circle": {
         "tags": ["notification", "notifications", "alert", "alerts", "success", "good", "positive"],
-        "description": "Inform the user that their intended action has taken place, as they expected."
+        "description": "Inform the user that their intended action has taken place, as they expected"
     },
     "check-none": {
         "tags": ["clear", "select", "unselect", "deselect", "checkboxes", "none", "toggle", "choose"],
-        "description": "Select none of the items that can be selected."
+        "description": "Select none of the items that can be selected"
     },
     "check": {
         "tags": ["check", "approve"],
@@ -311,7 +312,7 @@
             "download",
             "upload"
         ],
-        "description": "Download a copy of one or more files to the user's device. Oppposite of <code>upload</code>"
+        "description": "Download a copy of one or more files to the user's device. Opposite of <code>upload</code>"
     },
     "edit": {
         "tags": [
@@ -334,7 +335,7 @@
     },
     "error": {
         "tags": ["notification", "notifications", "alert", "alerts", "error", "invalid", "bad", "negative"],
-        "description": "Inform the user that their intended action could not be completed, due to an error by them or by us."
+        "description": "Inform the user that their intended action could not be completed, due to an error by them or by us"
 
     },
     "external-link": {
@@ -391,6 +392,7 @@
     "fullscreen-close": {
         "tags": [
             "fullscreen",
+            "full screen",
             "open",
             "view",
             "expand",
@@ -403,6 +405,7 @@
     "fullscreen-open": {
         "tags": [
             "fullscreen",
+            "full screen",
             "open",
             "view",
             "expand",
@@ -426,7 +429,7 @@
             "localization",
             "globalization"
         ],
-        "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format."
+        "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format"
     },
     "heart": {
         "tags": ["benefits", "navigation"],
@@ -452,7 +455,7 @@
             "insurance",
             "card"
         ],
-        "description": "The card typically issued with a benefit that indicates the policy holder's name, any dependents, and their level of conerage"
+        "description": "The card typically issued with a benefit that indicates the policy holder's name, any dependents, and their level of coverage"
     },
     "image": {
         "tags": [
@@ -513,7 +516,7 @@
             "sign out",
             "sign off"
         ],
-        "description": "Exit the system and unauthenticate"
+        "description": "Exit the system and clear authentication"
     },
     "mail": {
         "tags": [
@@ -703,7 +706,7 @@
             "download",
             "upload"
         ],
-        "description": "Upload a copy of one or more files from the user's device. Oppposite of <code>download</code>"
+        "description": "Upload a copy of one or more files from the user's device. Opposite of <code>download</code>"
     },
     "warning": {
         "tags": ["warning", "watch", "oops", "error", "mistake"],
