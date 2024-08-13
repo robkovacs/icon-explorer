@@ -217,11 +217,12 @@
 
     input.addEventListener('keyup', debounce(function(e) {
         if (this.value !== currentQuery) {
+            const toggleState = deprecatedToggle.getAttribute('aria-checked') === 'true'
             if (this.value) {
-                const toggleState = deprecatedToggle.getAttribute('aria-checked') === 'true'
                 filterIcons(this.value, toggleState);
                 currentQuery = this.value;
             } else {
+                filterIcons(this.value, toggleState);
                 populateGallery();
             }
         }
