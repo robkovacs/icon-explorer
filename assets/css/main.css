@@ -10,6 +10,27 @@ body {
     box-sizing: border-box;
 }
 
+a:link, a:visited {
+    color: #0070d4;
+    text-decoration: none;
+}
+
+
+a:hover, a:hover:visited {
+    color: #0E57B5;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #1E3D92;
+    text-decoration: underline;
+}
+
+a:hover:active {
+    color: #1E3D92;
+}
+
+
 /* Intro */
 
 h1 {

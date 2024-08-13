@@ -89,7 +89,7 @@
             "meta"
         ],
         "description": "Logo for Facebook",
-        "source": "Custom"
+        "source": "<a href=\"https://about.meta.com/brand/resources/facebook/logo/\">Facebook brand guidelines</a>"
     },
     "brand-linkedin": {
         "tags": [
@@ -97,7 +97,7 @@
             "social"
         ],
         "description": "Logo for LinkedIn",
-        "source": "Custom"
+        "source": "<a href=\"https://brand.linkedin.com/downloads\">LinkedIn brand guidelines</a>"
     },
     "brand-slack": {
         "tags": [
@@ -106,7 +106,7 @@
             "support"
         ],
         "description": "Logo for Slack",
-        "source": "Custom"
+        "source": "<a href=\"https://slack.com/media-kit\">Slack media kit</a>"
     },
     "brand-twitter": {
         "tags": [
@@ -116,7 +116,7 @@
             "x"
         ],
         "description": "Logo for X, formerly known as Twitter",
-        "source": "Custom"
+        "source": "<a href=\"https://about.x.com/en/who-we-are/brand-toolkit\">X brand guidelines</a>"
     },
     "building": {
         "tags": [
@@ -125,7 +125,7 @@
             "work"
         ],
         "description": "Used to represent the parent company of a Justworks product instance; or an work location, as in work address, work email, or work phone",
-        "source": "Phosphor Regular, buildings" 
+        "source": "Phosphor Regular, buildings"
     },
     "bullet-outline": {
         "tags": [
@@ -135,7 +135,6 @@
         ],
         "description": "Third level of a bulleted list",
         "source": "Custom"
-
     },
     "bullet-square": {
         "tags": [

@@ -197,7 +197,7 @@
         }
 
         if (source) {
-            small.firstChild.nextSibling.textContent = source;
+            small.firstChild.nextSibling.innerHTML = source;
         } else {
             container.removeChild(small);
         }
