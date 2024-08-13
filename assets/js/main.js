@@ -143,7 +143,14 @@
         populateGallery(matchingIcons);
     }
 
-    function showIconDetails(name, tags, description, source, isDeprecated, isNew) {
+    function showIconDetails(
+        name,
+        tags,
+        description,
+        source,
+        isDeprecated,
+        isNew
+    ) {
         const inspector = document.querySelector("#inspector");
 
         const iconDetailTemplate = document.querySelector(
@@ -211,9 +218,10 @@
     }
 
     function sortIcons(a, b) {
-        (a = a.split("-")), (b = b.split("-"));
+        a = a.split("-");
+        b = b.split("-");
 
-        for (let i = 0; i <= Math.min(a.length, b.length); i++) {
+        for (let i = 0; i < Math.min(a.length, b.length); i++) {
             if (a[i] > b[i]) {
                 return 1;
             } else if (a[i] < b[i]) {
@@ -222,7 +230,11 @@
                 if (a.length > b.length) {
                     return 1;
                 } else {
-                    return -1;
+                    if (a[i] > b[i]) {
+                        return 1;
+                    } else if (a[i] < b[i]) {
+                        return -1;
+                    } 
                 }
             }
         }
@@ -270,11 +282,12 @@
     clearSearch.addEventListener("click", function (e) {
         input.value = "";
         const toggleState =
-        deprecatedToggle.getAttribute("aria-checked") === "true";
+            deprecatedToggle.getAttribute("aria-checked") === "true";
         filterIcons("", toggleState);
         input.focus();
+        this.style.display = "none";
     });
-    
+
     getIcons();
 
     if (currentQuery) {
