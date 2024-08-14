@@ -82,6 +82,16 @@
         "description": "Time-sensitive notifications of activity within the system",
         "source": "Phosphor Regular, bell"
     },
+    "birthday": {
+        "tags": [
+            "birthday",
+            "celebration",
+            "cake"
+        ],
+        "description": "Indicating when it's a person's birthday",
+        "source": "Phosphor Regular, cake",
+        "isNew": true
+    },
     "brand-facebook": {
         "tags": [
             "logo",
