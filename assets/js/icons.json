@@ -46,13 +46,13 @@
         "source": "Phosphor Regular, arrow-up"
     },
     "arrows-horizontal": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, arrows-left-right"
     },
     "arrows-vertical": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, arrows-down-up"
@@ -723,7 +723,7 @@
         "source": "Phosphor Regular, list-bullets"
     },
     "lock-open": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, lock-key-open"
@@ -773,7 +773,8 @@
             "text",
             "talking",
             "conversation",
-            "chat"
+            "chat",
+            "deprecated"
         ],
         "description": "Use <code>chat</code> instead",
         "isDeprecated": true,
@@ -824,7 +825,8 @@
     "paystub": {
         "tags": [
             "money",
-            "pay"
+            "pay",
+            "deprecated"
         ],
         "description": "Use <code>money</code> instead",
         "isDeprecated": true,
@@ -901,13 +903,13 @@
         "source": "Phosphor Regular, phone"
     },
     "pie-chart": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, chart-pie"
     },
     "pin": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, map-pin"
@@ -959,7 +961,8 @@
     "question-circle": {
         "tags": [
             "help",
-            "support"
+            "support",
+            "deprecated"
         ],
         "description": "Use <code>help</code> instead",
         "isDeprecated": true,
