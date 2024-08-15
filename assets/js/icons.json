@@ -58,7 +58,7 @@
         "source": "Phosphor Regular, arrows-down-up"
     },
     "asterisk": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, asterisk"
@@ -260,7 +260,7 @@
         "source": "Phosphor Regular, check-square"
     },
     "check-circle-inverted": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Fill, check-circle"
@@ -406,7 +406,7 @@
         "source": "Phosphor Regular, copy"
     },
     "credit-card": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, credit-card"
@@ -577,13 +577,13 @@
         "source": "Phosphor Regular, funnel"
     },
     "folder-open": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, folder-open"
     },
     "folder": {
-        "tags": [],
+        "tags": ["deprecated"],
         "description": "",
         "isDeprecated": true,
         "source": "Phosphor Regular, folder"
@@ -633,6 +633,17 @@
         ],
         "description": "Relating to defining the user's preferred language, or localized settings such as date or currency format",
         "source": "Phosphor Regular, globe"
+    },
+    "grid": {
+        "tags": [
+            "grid",
+            "view",
+            "cards",
+            "boxes"
+        ],
+        "description": "A grid-based view of a data set, as opposed to, say, a list-based view",
+        "source": "Phosphor Regular, squares-four",
+        "isNew": true
     },
     "heart": {
         "tags": [
@@ -707,9 +718,8 @@
         "source": "Phosphor Regular, link"
     },
     "list": {
-        "tags": [],
-        "description": "",
-        "isDeprecated": true,
+        "tags": ["list", "view"],
+        "description": "A list-based view of a data set, as opposed to, say, a grid-based view",
         "source": "Phosphor Regular, list-bullets"
     },
     "lock-open": {
