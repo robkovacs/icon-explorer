@@ -1,3 +1,8 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     font-family: "Oately";
     margin: 2rem;
@@ -205,6 +210,12 @@ main {
     border-radius: 0.5rem;
     max-height: calc(100vh - 4rem);
     overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+    #gallery, #inspector {
+        flex: 2;
+    }
 }
 
 /* Icon Summary OR Detail */
