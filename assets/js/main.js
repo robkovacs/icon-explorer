@@ -191,6 +191,7 @@
                 button.addEventListener("click", function (e) {
                     input.value = tagName;
                     filterIcons(tagName);
+                    clearSearch.style.display = "block";
                 });
                 ul.appendChild(iconTag);
             }
