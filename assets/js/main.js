@@ -233,7 +233,7 @@
     }
 
     input.addEventListener(
-        "keyup",
+        "input",
         debounce(function (e) {
             if (this.value.trim() !== currentQuery) {
                 const toggleState =
