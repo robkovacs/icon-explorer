@@ -571,7 +571,8 @@
         "tags": [
             "filter",
             "search",
-            "options"
+            "options",
+            "funnel"
         ],
         "description": "Narrow down a set of items to those that match specific criteria",
         "source": "Phosphor Regular, funnel"
